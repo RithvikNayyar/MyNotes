@@ -36,6 +36,9 @@ __________________________________________________________________________
 2) Logical Calculations : (< , > , == , AND, OR )
 * Arithmetic Logic Unit get all the commands from Control unit (CU) & performs all the task
 * When they are combined together they are called CPU (Central Processing Unit)
-* 
+* CPU takes data from input/output devices, storage devices(Hard disk drive)(Music, video) 
+* CPU doesn't have direct link to HDD, if it were then as soon as it reads the data then it would run it without permission or directly open all files as soon as reads HDD.
+* To over-come this issue there is a temporary Memory called RAM, So first the data is sent to ram then it runs on the system.
+![[Pasted image 20240715105723.png]]
 
 
