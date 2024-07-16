@@ -2,6 +2,7 @@
 YOUTUBE LINK: https://bit.ly/50HRCP 
 ## Basic of computing
 
+##### What is a computer?
 Computer is a device which compute data.
 
 Data can be:
@@ -87,6 +88,34 @@ __________________________________________________________________________
 * They do not provide many facilities at hardware level.
 *  A Program written in a low level language can be made to run very quickly, with a small memory footprint.
 * it needs compiler or interpreter for translation.
+
+#### Language Translator 
+A translator or programming language processor is a generic tern that can refer to software that converts code from one language to another. Follow diagram below...
+![[Pasted image 20240716070523.png]]
+
+##### Assembly Language and Assembler
+###### Assembly Language 
+- Assembly language is a low-level programming language.
+- It uses mnemonic codes (short, human-readable instructions) to represent machine language instructions.
+- Each instruction corresponds directly to an operation the computer’s CPU can perform.
+- Programmers write assembly code in a text editor.
+- Assembly language is closer to machine code than high-level languages like C++ or Java.
+- It allows direct access to hardware resources (memory, I/O ports).
+- Ideal for systems programming and device drivers.
+###### Assembler
+- An assembler is a specialized software tool.
+- It converts assembly code into machine language (binary code) that the CPU can execute.
+- Assemblers play a crucial role in translating human-readable assembly instructions into executable machine code.
+![[Pasted image 20240716071718.png]]
+
+##### Compiler & Interpreter
+- A translator or programming language processor is a generic term that can refer to anything that converts code from one computer language into another.
+- Compiler and interpreter are translator for high level Language.
+![[Pasted image 20240716073124.png]]
+
+| COMPILER                                                                                                                                                                                                                           | INTERPRETER                                                                                                                                                                                                                             |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| - Translates high-level code into machine code ahead of time.<br>- Produces an executable program.<br>- Checks for syntax and some semantic errors.<br>- Compiled code runs faster.<br>- Examples: GCC (for C/C++), Java compiler. | - Translates code line-by-line during program execution.<br>- No separate executable; always needs the interpreter.<br>- Easier to debug.<br>- Interpreted code runs slower.<br>- Examples: Python interpreter, JavaScript interpreter. |
 
 
 
