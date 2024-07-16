@@ -63,6 +63,45 @@ __________________________________________________________________________
 * Programming Language provide us with set of instructions to computer to execute. Set of instructions is called Software Program.
 * The process of writing program is called Programming.
 * The person who develops the software called software developer.
+ 
+ Programming language are of 3 types:
+1)  Low Level Language:
+* Those Language which are close to hardware or hardware friendly.
+* Commands or function map closely to processor instructions.
+* Program written in low-level languages tend to be relatively non-portable, due to being optimized for a certain type of system architecture. It is machine dependent,
+* programs written in low level language can be made to run very quickly, with a small memory footprint.
+* It needs assembler for translation.
+
+2) Middle level language :
+* A middle-level programming language serves as a bridge between high-level and low-level languages.
+- It strikes a balance: more abstraction than low-level languages (making code easier to write and understand) and more control and efficiency than high-level languages.
+- These languages aim for better performance than high-level languages. They allow manual memory management and direct access to hardware resources.
+- **Examples**: C and C++ are often considered middle-level languages. They offer features from both high-level languages (like structured programming) and low-level languages (like direct memory manipulation).
+- Middle-level languages are suitable for system programming, embedded systems, and performance-critical applications.
+- They allow you to write efficient code while maintaining a reasonable level of developer productivity.
+
+3) High Level Language :
+*  Those language which are close to programmer or programmer friendly.
+* It may use natural language element such as alphabet, numerical, etc., be easier to use, or may automate significant areas of computing system(Memory management), making the process of developing a program simpler and more understandable than when using a lower-level language.
+* Programs written in high - level languages tend to be relatively portable.
+* They do not provide many facilities at hardware level.
+*  A Program written in a low level language can be made to run very quickly, with a small memory footprint.
+* it needs compiler or interpreter for translation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
