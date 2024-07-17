@@ -116,15 +116,87 @@ A translator or programming language processor is a generic tern that can refer 
 | COMPILER                                                                                                                                                                                                                           | INTERPRETER                                                                                                                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | - Translates high-level code into machine code ahead of time.<br>- Produces an executable program.<br>- Checks for syntax and some semantic errors.<br>- Compiled code runs faster.<br>- Examples: GCC (for C/C++), Java compiler. | - Translates code line-by-line during program execution.<br>- No separate executable; always needs the interpreter.<br>- Easier to debug.<br>- Interpreted code runs slower.<br>- Examples: Python interpreter, JavaScript interpreter. |
+##### What is IDE(Integrated Development Environments)?
+- **All-in-One Workspace**: IDEs combine essential tools (source-code editors, debuggers, build automation) into a single environment.
+- **Boosted Productivity**: IDEs catch syntax errors as you type, provide code completion, and offer refactoring tools.
+- **Language-Specific IDEs**: Different IDEs cater to specific languages (e.g., Visual Studio for .NET, PyCharm for Python).
 
+__________________________________________________________________________
+**I CHOSE DEV C++ FOR MY IDE YOU MAY CHOOSE WHICH EVER YOU FEEL COMFORTABLE AS THE RESULTS WILL BE SAME.
+__________________________________________________________________________
 
+## C Programming 
+##### IDE that i use
+For C programming i used Dev C++ which comes with inbuilt compiler so you can directly install and go, But i recommend you to install code blocks as its updated frequently.
+Dev C++ LINK:  https://sourceforge.net/projects/orwelldevcpp/
+Code blocks LINK: https://www.fosshub.com/Code-Blocks.html
 
+#### First Program in C language
+After installation of your ide create one project and name it as you wish then write your first program.
+**Printing Hello world
+```
+#include<stdio.h>
+void main ()
+{
+	printf("Hello World");
+}
+```
+OUTPUT: Hello world
+![[Pasted image 20240716084721.png]]
 
+#### History of C Language and Standards 
+1. **Early C (1969)**:
+    
+    - **Birth of B**: C’s roots trace back to an earlier language called **B**, which was developed by Dennis Ritchie at Bell Laboratories. B itself was based on languages like **BCPL** and **CPL**.
+    - **Typeless Beginnings**: In its early days, C remained a typeless language, akin to its predecessor BCPL. It was created to replace the PDP-7 assembler as the system programming language for Unix.
+    - **Operators and Evolution**: B introduced operators like `++`, `--`, and compound assignment. However, it lacked explicit types.
+2. **Standardization Efforts**:
+    
+    - In 1983, the **American National Standards Institute (ANSI)** established a committee called **X3J11** to standardize the C language.
+    - This marked a pivotal moment—the transition from an evolving language to a well-defined standard.
+3. **C89 (ANSI C)**:
+    
+    - In 1989, the first official standard for C was published: **ISO/IEC 9899:1990**, commonly known as **C89**.
+    - Key features included:
+        - Introduction of `volatile`, `enum`, `signed`, and `void`.
+        - Influence from C++: concepts like `const` and function prototypes.
+4. **Subsequent Standards**:
+    
+    - **C90**: The ANSI C standard was accepted as an international standard by ISO/IEC in 1990.
+    - **C99**: The 1999 standard brought significant enhancements:
+        - `bool`, `long long`, `<stdint.h>`, variable-length arrays, designated initializers, and more.
+        - Hexadecimal floating-point format (`%a`), complex numbers, and the `__func__` identifier.
+        - Removal of implicit functions and implicit `int`.
+5. **Recent Updates**:
+    
+    - **C11**: The 2011 standard (ISO/IEC 9899:2011) introduced concurrency support and other improvements.
+    - **C17**: A minor update (ISO/IEC 9899:2018) with bug fixes.
+    - **C23**: The ongoing work toward the next standard.
 
+And there you have it—a glimpse into the evolution of C, from its humble beginnings to its status as a foundational language for systems programming, embedded systems, and more!
 
+#### Properties of C Language
 
+1. C is a high level programming language having features of low level programming language.
+2. Permissive language (Easily controllable)
+3. Efficiency 
+4. Portability (The main reason why c is build)
+5. Flexibility
+![[Pasted image 20240717080151.png]]
 
-
+#### How to write C Program
+##### Rules for making C
+1. C is a functional programming language. (Function is a set of statement which perform some action)
+![[Pasted image 20240717082009.png]]
+2. C program require at least one function.
+3. C program require main() to run.
+4. Every program starts with main() and ends with main().
+5. C program not allow functions in side function.
+6. In C program, One function can call another function.
+7. Declaration of function in C.
+8. C supports two types of function.
+9. C is a Case sensitive language
+10. C program requires compiler to develop.
 
 
 
