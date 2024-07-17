@@ -1,5 +1,5 @@
 
-YOUTUBE LINK: https://bit.ly/50HRCP 
+YOUTUBE LINK: https://bit.ly/50HRCP, https://bit.ly/CWCWH10HR
 ## Basic of computing
 
 ##### What is a computer?
@@ -127,9 +127,10 @@ __________________________________________________________________________
 
 ## C Programming 
 ##### IDE that i use
-For C programming i used Dev C++ which comes with inbuilt compiler so you can directly install and go, But i recommend you to install code blocks as its updated frequently.
+For C programming i used Dev C++ or VS code. Dev C++ comes with inbuilt compiler so you can directly install and go, But i recommend you to install code blocks or VS code as its updated frequently and get more plugins. All the links are down below.
 Dev C++ LINK:  https://sourceforge.net/projects/orwelldevcpp/
 Code blocks LINK: https://www.fosshub.com/Code-Blocks.html
+VS code LINK: https://code.visualstudio.com/
 
 #### First Program in C language
 After installation of your ide create one project and name it as you wish then write your first program.
@@ -143,6 +144,9 @@ void main ()
 ```
 OUTPUT: Hello world
 ![[Pasted image 20240716084721.png]]
+***
+The above code is also called Boiler plate code.
+*** 
 
 #### History of C Language and Standards 
 1. **Early C (1969)**:
@@ -182,12 +186,12 @@ And there you have it—a glimpse into the evolution of C, from its humble begin
 3. Efficiency 
 4. Portability (The main reason why c is build)
 5. Flexibility
-![[Pasted image 20240717080151.png]]
+![[Pasted image 20240717080151.png|277]]
 
 #### How to write C Program
 ##### Rules for making C
 1. C is a functional programming language. (Function is a set of statement which perform some action)
-![[Pasted image 20240717082009.png]]
+![[Pasted image 20240717082009.png|652]]
 2. C program require at least one function.
 3. C program require main() to run.
 4. Every program starts with main() and ends with main().
@@ -198,8 +202,33 @@ And there you have it—a glimpse into the evolution of C, from its humble begin
 9. C is a Case sensitive language
 10. C program requires compiler to develop.
 
+#### Variables
+A variable is a container which stores a ‘value’. In kitchen, we have containers storing Rice, Sugar etc. Similar to that, variables in C stores value of a constant.
+![[Pasted image 20240717100150.png]]
+![[Pasted image 20240717101015.png|459]] 
 
+##### RULES FOR NAMING VARIABLES IN C 
+1. First character must be an alphabet or underscore (_) 
+2. No commas, blanks are allowed. 
+3. No special symbol other than (_) allowed. 
+4. Variable names are case sensitive. 
 
+We must create meaningful variable names in our programs. This enhances readability of our programs.
+
+#### CONSTANTS 
+An entity whose value does not change is called as a constant. A variable is an entity whose value can be changed. 
+
+##### TYPES OF CONSTANTS 
+Primarily, there are three types of constants: 
+1. Integer Constant → 1,6,7,9 
+2. Real Constant → 322.1, 2.5 ,7.0 
+3. Character Constant → ‘a’, ‘$’, ‘@’ (must be enclosed within single quotes)
+
+#### KEYWORDS 
+These are reserved words, whose meaning is already known to the compiler. There are 32 keywords available in C.
+![[C all in 1 notes-20240717102323564.webp]]
+
+#### COMMENTS
 
 
 
