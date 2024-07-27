@@ -126,6 +126,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 ## C Programming 
+### CHAPTER 1
 ##### IDE that i use
 For C programming i used Dev C++ or VS code. Dev C++ comes with inbuilt compiler so you can directly install and go, But i recommend you to install code blocks or VS code as its updated frequently and get more plugins. All the links are down below.
 Dev C++ LINK:  https://sourceforge.net/projects/orwelldevcpp/
@@ -277,4 +278,205 @@ scanf("%d",&i);
 ```
 ![[Mynotes/C/c all pictures in notes/C-20240724153621701.webp]]
 - ‘&’ is the “address of” operator and it means that the supplied value should be copied to the address which is indicated by variable i.
+
+#### Chapter 1 Practice set
+*** Just in case if you don't know the formula you can always use the help of chatgpt
+1) write a C program to calculate area of rectangle:
+		a. Using hard coded inputs
+		b, Using inputs supplied by the user.
+SOL:  1.a Solution
+```
+#include<stdio.h>
+int main ()
+{
+    int length, width, area;
+    length = 5;
+    width = 6;
+    // As we know area of a rectange is a = lxb so...
+    area=length*width;
+    printf("Area of a rectangele is %d", area);
+    return 0;
+}
+// output for this is a=5*6 = 30, Area of a rectangele is 30
+```
+SOL: 1.b Solution
+```
+#include <stdio.h>
+int main()
+{
+    int length, width, area;
+    printf("Enter length: ");
+    scanf("%d", &length);
+    printf("Enter width: ");
+    scanf("%d", &width);
+    area = length * width;
+    printf("Area of a rectangle is %d\n", area);
+    return 0;
+}
+//output for this depends on the input you have given
+```
+
+2)  a. Calculate the area of a circle.
+	b. modify the same program to calculate the volume of a cylinder given its radius and height.
+SOL: 2.a&b Solution
+```
+#include <stdio.h>
+int main()
+{
+    int r, h;
+    float area, volume;
+    printf("Enter radius: ");
+    scanf("%d", &r);
+    printf("Enter height: ");
+    scanf("%d", &h);
+    // pie value is 3.14...  or 22/7 anything you take values are the same
+    area = 3.14 * r * r;
+    volume = 3.14 * r * r * h;
+    printf("Area of a circle is %f\n", area);
+    printf("Volume of circle is %f\n", volume);
+    return 0;
+}
+// for output i took r =5 h = 10 so area = 78.5 and volume = 785
+```
+
+3) Write a program to convert Celsius (Centigrade degrees temperature to Fahrenheit).
+SOL: Solution: As i don't know the formula to convert Celsius to Fahrenheit so i am going to use chatgpt and it gave me a answer I.e., F = C X 9/5 +32 soo....  
+```
+#include <stdio.h>
+
+int main() {
+    float celsius, fahrenheit;
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &celsius);
+    fahrenheit = (celsius * 9 / 5) + 32;
+    printf("%.2f Celsius = %.2f Fahrenheit\n", celsius, fahrenheit);
+    return 0;
+}
+// here %.2f will print a floating-point number up to two places after the decimal
+```
+
+4) Write a program to calculate simple interest for a set of values representing principal, number of years and rate of interest.
+SOL: Here also i don't know the formula to calculate simple interest so i go to chatgpt again for help. so it gave me I = PxRxT.
+```
+#include <stdio.h>
+int main() {
+    float principal, rate, time, interest;
+    printf("Enter principal amount: ");
+    scanf("%f", &principal);
+    printf("Enter rate of interest: ");
+    scanf("%f", &rate);
+    printf("Enter time in years: ");
+    scanf("%f", &time);
+    interest = (principal * rate * time) / 100;
+    printf("Simple Interest = %.2f\n", interest);
+    return 0;
+}
+
+```
+
+### CHAPTER 2
+#### TYPES OF INSTRUCTIONS
+1. Type declaration Instructions:
+
+```
+int a;
+float b;
+char c;
+```
+2. Arithmetic Instructions:
+	   Arithmetic instructions perform mathematical operations.
+	   some of the commonly used operators in C language:
+	    + (Addition) 
+	    - (Subtraction) 
+	    * (Multiplication) 
+	    / (Division) 
+	    % (Modulus)
+	 ![[C-20240727221507876.webp|187]]
+	***Note:
+	1. Operands can be int/float etc. + - * / are arithmetic operators.\
+	2. % is the modular division operator 
+	*  % → returns the remainder 
+	* % → cannot be applied on float 
+	* % → sign is same as of numerator (-5%2=-1)
+	3. No operator is assumed to be present.
+	4. There is no operator to perform exponentiation in C however we can use pow (x,y) from <math.h>
+###### TYPE CONVERSION
+An Arithmetic operation between 
+• int and int → int 
+• int and float → float 
+• float and float → float
+###### OPERATOR PRECEDENCE IN C
+Have a look at the below statement: 3*x – 8*y is (3x)-(8y) or 3(x-8y)? 
+In C language simple mathematical rules like BODMAS, no longer apply. 
+The answer to the above questions is provided by operator precedence & associativity.
+
+The following table lists the operator priority in C:
+
+| PRIORITY | Operators |
+| :------- | :-------- |
+| 1st      | * / %     |
+| 2nd      | + -       |
+| 3rd      | =         |
+
+
+3. Control Instructions:
+	Determines the flow of control in a program four types of control instructions in C are: 
+	1. Sequence Control instructions. 
+	2. Decision Control instructions 
+	3. Loop Control instructions 
+	4. Case Control instructions.
+#### CHAPTER 2 – PRACTICE SET
+
+1. Which of the following is invalid in C? 
+	a. int a=1; int b = a; 
+	b. int v = 3*3; 
+	c. char dt = ‘21 dec 2020’;
+	SOL:  C is Wrong
+2. What data type will 3.0/8 – 2 return?
+	SOL: As we have learned in Athematic operations divide will execute first.
+3. Write a program to check whether a number is divisible by 97 or not.
+	SOL:  this can be done by:
+```
+#include <stdio.h>
+int main() 
+{
+    int a,b = 97;
+    printf("Enter the number: ");
+    scanf("%d",&a);
+    if(a%b == 0)
+        printf("It is divisible by 97");
+    else
+        printf("It is not divisible by 97");
+    return 0;
+} // WE WILL LEARN ABOUT IF-ELSE IN CHAPTER 3
+```
+4. Explain step by step evaluation of ```3*x/y – z+k, where x=2, y=3, z=3, k=1 ```
+	sol: i will let the code handle the problem instead of step by step
+```
+#include <stdio.h>
+int main() {
+    int x = 2, y = 3, z = 3, k = 1;
+    int result = 3*x/y - z + k;
+    printf("The result is %d\n", result);
+    return 0;
+}
+```
+
+### Chapter 3: CONDITION INSTRUCTIONS 
+#### DECISION MAKING INSTRUCTIONS IN C
+##### If–else statement
+The syntax of an if-else statement in C looks like:
+```
+if (condition_to_be_checked) 
+{ // Statements if condition is true
+} else 
+{ // Statements if condition is false
+```
+
+##### Switch statement
+
+
+
+
+
 
