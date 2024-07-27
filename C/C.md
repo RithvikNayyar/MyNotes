@@ -18,7 +18,7 @@ Data can be:
 1) Accuracy
 2) speed
 * Disadvantages: Cannot calculate physical phenomena
-![[Pasted image 20240715094151.png]] 
+![[Mynotes/C/c all pictures in notes/Pasted image 20240715094151.png]] 
 
 #### Analog Computer
 * They work on physical phenomena - Advantage
@@ -28,9 +28,9 @@ Ex: Speedometer, Voltage meter, Pressure gauge, etc.
 #### Hybrid computer
 * It has some portion of digital computer & Analog Computer (ex: Digital speedometer, Digital thermometer, Electric multimeter)
 __________________________________________________________________________
-![[Pasted image 20240715094407.png]]
-![[Pasted image 20240715094454.png]]
-![[Pasted image 20240715100243.png]]
+![[Mynotes/C/c all pictures in notes/Pasted image 20240715094407.png]]
+![[Mynotes/C/c all pictures in notes/Pasted image 20240715094454.png]]
+![[Mynotes/C/c all pictures in notes/Pasted image 20240715100243.png]]
 * Note: The Above pictures shows the types of devices, Ac - Dc current & How computer reads binary number in system.
 
 ##### How does a Digital computer work
@@ -42,13 +42,13 @@ __________________________________________________________________________
 * CPU takes data from input/output devices, storage devices(Hard disk drive)(Music, video) 
 * CPU doesn't have direct link to HDD, if it were then as soon as it reads the data then it would run it without permission or directly open all files as soon as reads HDD.
 * To over-come this issue there is a temporary Memory called RAM, So first the data is sent to ram then it runs on the system.
-![[Pasted image 20240715105723.png]]
+![[Mynotes/C/c all pictures in notes/Pasted image 20240715105723.png]]
 
 #### Software & It's Development
 * Software either control hardware or do some specific task
 * Software is a set of instructions written in specific computer understandable form to perform specific task.
 * EX: When you are on a desktop and type something like your name but nothing happens and then you open a notepad and type your name then you see your name on the notepad. So this show that I/O devices are controlled through software.
-![[Pasted image 20240715111547.png]] 
+![[Mynotes/C/c all pictures in notes/Pasted image 20240715111547.png]] 
 
 ##### How to develop a software
 * For developing a software you need to know a programming language (c, c++, java, python)
@@ -91,7 +91,7 @@ __________________________________________________________________________
 
 #### Language Translator 
 A translator or programming language processor is a generic tern that can refer to software that converts code from one language to another. Follow diagram below...
-![[Pasted image 20240716070523.png]]
+![[Mynotes/C/c all pictures in notes/Pasted image 20240716070523.png]]
 
 ##### Assembly Language and Assembler
 ###### Assembly Language 
@@ -106,12 +106,12 @@ A translator or programming language processor is a generic tern that can refer 
 - An assembler is a specialized software tool.
 - It converts assembly code into machine language (binary code) that the CPU can execute.
 - Assemblers play a crucial role in translating human-readable assembly instructions into executable machine code.
-![[Pasted image 20240716071718.png]]
+![[Mynotes/C/c all pictures in notes/Pasted image 20240716071718.png]]
 
 ##### Compiler & Interpreter
 - A translator or programming language processor is a generic term that can refer to anything that converts code from one computer language into another.
 - Compiler and interpreter are translator for high level Language.
-![[Pasted image 20240716073124.png]]
+![[Mynotes/C/c all pictures in notes/Pasted image 20240716073124.png]]
 
 | COMPILER                                                                                                                                                                                                                           | INTERPRETER                                                                                                                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -143,7 +143,7 @@ void main ()
 }
 ```
 OUTPUT: Hello world
-![[Pasted image 20240716084721.png]]
+![[Mynotes/C/c all pictures in notes/Pasted image 20240716084721.png]]
 ***
 The above code is also called Boiler plate code.
 *** 
@@ -186,12 +186,12 @@ And there you have it—a glimpse into the evolution of C, from its humble begin
 3. Efficiency 
 4. Portability (The main reason why c is build)
 5. Flexibility
-![[Pasted image 20240717080151.png|277]]
+![[Mynotes/C/c all pictures in notes/Pasted image 20240717080151.png|277]]
 
 #### How to write C Program
 ##### Rules for making C
 1. C is a functional programming language. (Function is a set of statement which perform some action)
-![[Pasted image 20240717082009.png|652]]
+![[Mynotes/C/c all pictures in notes/Pasted image 20240717082009.png|652]]
 2. C program require at least one function.
 3. C program require main() to run.
 4. Every program starts with main() and ends with main().
@@ -204,8 +204,9 @@ And there you have it—a glimpse into the evolution of C, from its humble begin
 
 #### Variables
 A variable is a container which stores a ‘value’. In kitchen, we have containers storing Rice, Sugar etc. Similar to that, variables in C stores value of a constant.
-![[Pasted image 20240717100150.png]]
-![[Pasted image 20240717101015.png|459]] 
+(hindi-english: simply, it is name of the memory location. Variable ek memory location ka naam hai).
+![[Mynotes/C/c all pictures in notes/Pasted image 20240717100150.png]]
+![[Mynotes/C/c all pictures in notes/Pasted image 20240717101015.png|459]] 
 
 ##### RULES FOR NAMING VARIABLES IN C 
 1. First character must be an alphabet or underscore (_) 
@@ -226,20 +227,54 @@ Primarily, there are three types of constants:
 
 #### KEYWORDS 
 These are reserved words, whose meaning is already known to the compiler. There are 32 keywords available in C.
-![[C all in 1 notes-20240717102323564.webp]]
+![[Mynotes/C/c all pictures in notes/C all in 1 notes-20240717102323564.webp]]
 
 #### COMMENTS
 
-// 
+Comments are used to clarify something about the program in plain language. It is a way for us to add notes to our program. There are two types of comments in C. 
+1. Single line Comment: Single-line comments start with two forward slashes (//). Any information after the slashes // lying on the same line would be ignored (will not be executed).
+```
+// this is single comment
+```
 
+2. Multi-line Comment: A multi-line comment starts with /* and ends with */. Any information between /* and */ will be ignored by the compiler.
+```
+/* 
+This is a multi-line comment 
+*/
+```
 
+#### COMPILATION AND EXECUTION
+- A compiler is a computer program which converts a C program into machine language so that it can be easily understood by the computer. 
+- A C program is written in plain text. 
+- This plain text is combination of instructions in a particular sequence. The compiler performs some basic checks and finally converts the program into an executable.
+![[Mynotes/C/c all pictures in notes/C-20240724152136590.webp]]
+#### LIBRARY FUNCTIONS
+C language has a lot of valuable library functions which is used to carry out certain tasks. For instance printf() function is used to print values on the screen.
+```
+include <stdio.h> 
+int main() 
+{ 
+int i = 10; 
+printf("This is %d\n", i); 
+// %d for integers 
+// %f for real values (floating-point numbers) 
+// %c for characters 
+return 0; 
+}
+```
 
+##### TYPES OF VARIABLES
+ 1. Integer variables → int a=3; 
+ 2. Real variables → int a=7; float a=7.7; 
+ 3. Character variables → char a= ‘b’;
 
-
-
-
-
-
-
-
+#### RECEIVING INPUT FROM THE USER
+In order to take input from the user and assign it to a variable, we use scanf() function.
+**SYNTAX:
+```
+scanf("%d",&i);
+```
+![[Mynotes/C/c all pictures in notes/C-20240724153621701.webp]]
+- ‘&’ is the “address of” operator and it means that the supplied value should be copied to the address which is indicated by variable i.
 
