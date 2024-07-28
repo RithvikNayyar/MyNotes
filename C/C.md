@@ -472,8 +472,141 @@ if (condition_to_be_checked)
 } else 
 { // Statements if condition is false
 ```
+**RELATIONAL OPERATORS IN C**
+Relational operators are used to evaluate conditions (true or false) inside the if statements.
+Some examples of relational operators are:  ``` ==, >=, >, <, <=, !=   ```
+The condition can be any valid expression. In C a non-zero value is considered to be true.
+**LOGICAL OPERATORS** 
+&&, || and !, are three logical operators in C. These are read as “AND”, “OR” and “NOT” They are used to provide logic to our C programs.
+**USAGE OF LOGICAL OPERATORS**
+1. && (AND) → is true when both the conditions are true 
+	a. “1 and 0” is evaluated as false. 
+	b. “0 and 0” is evaluated as false. 
+	c. “1 and 1” is evaluated as true.
+2. || (OR) → is true when at least one of the conditions is true. (1 or 0 → 1) (1 or 1 → 1) 
+3. ! (NOT) → returns true if given false and false if given true 
+	a. !(3 == 3) → evaluates to false 
+	b. !(3>30) → evaluates to true.
+As the number of conditions increases, the level of indentation increases. This reduces readability. Logical operators come to rescue in such cases.
+**ELSE IF CLAUSE**
+Instead of using multiple if statements, we can also use else if along with it thus forming an if-else if-else ladder.
+```
+if{ 
+// Statements 
+} 
+else if{ // Statements 
+} 
+else{ // Statements 
+}
+```
+1. Using if-else if -else reduces indents. 
+2. The last “else” is optional. 
+3. Also there can be any number of “else if”. 
+4. Last else is executed only if all conditions fail.
 
+| Priority |  Operator  |
+| :------: | :--------: |
+|    1     |     !      |
+|    2     |  *, /, %   |
+|    3     |    +, -    |
+|    4     | <>, <=, >= |
+|    5     |  == , !==  |
+|    6     |     &&     |
+|    7     |    \|\|    |
+|    8     |     =      |
+**CONDITIONAL OPERATORS**
+A shorthand “if – else” can be written using the conditional or ternary operators
+```
+condition ? expression-if-true : expression-if-false
+// Here "?" and ":" are called Ternary Operators
+```
 ##### Switch statement
+switch-case is used when we have to make a choice between number of alternatives for a given variable.
+```
+switch (integer expression)
+{
+case c1:
+// code;
+case c2:         // c1, c2 & c3 -> Constants 
+// code;         // code -> Any valid C code. 
+case c3: 
+// code: 
+default: 
+// code; 
+}
+```
+
+The value of integer-expression is matched against c1, c2, c3… If it matches any of these cases, that case along with all subsequent “case” and “default” statements are executed.
+
+• We can use switch-case statements even by writing cases in any order of our choice (not    necessarily ascending). 
+• char values are allowed as they can be easily evaluated to an integer. 
+• A switch can occur within another but in practice this is rarely done.
+##### ASCII VALUE:
+ASCII (American Standard Code for Information Interchange) is a character encoding standard used to represent text in computers and other devices that use text. Each character is assigned a unique 7-bit code. The ASCII values for all characters range from 0 to 127.
+
+#### CHAPTER 3 – PRACTICE SET
+1) What will be the output of this program:
+```
+int a = 10;
+if (a = 11)
+	printf("I am 11");
+else 
+	printf("I am not 11");
+```
+sol: Output for this is: I am 11. 
+**REASON:** Is because = is used for assignment where as == is used for equality check.
+
+2) Write a program to determine whether a student has passed or failed. To pass, a student requires a total of 40% and at least 33% in each subject. Assume there are three subjects and take the marks as input from the user.
+SOL:
+```
+#include <stdio.h>
+
+int main() {
+    int marks1, marks2, marks3;
+
+    // Take marks as input from the user
+    printf("Enter marks for subject 1: ");
+    scanf("%d", &marks1);
+    printf("Enter marks for subject 2: ");
+    scanf("%d", &marks2);
+    printf("Enter marks for subject 3: ");
+    scanf("%d", &marks3);
+    // Calculate the total marks and percentage
+    int total = marks1 + marks2 + marks3;
+    float percentage = total / 3.0;
+    // Check if the student has passed or failed
+    if(percentage >= 40 && marks1 >= 33 && marks2 >= 33 && marks3 >= 33) {
+        printf("Passed\n");
+    } else {
+        printf("Failed\n");
+    }
+    return 0;
+}
+```
+
+3) Write a program to determine whether a character entered by the user is lowercase or not.
+SOL: To know weather the character entered is lowercase or not we need to know the concept of ASCII values and then we can solve the code.
+```
+#include<stdio.h>
+int main()
+{
+	char ch = 'a';
+	printf("The value of character is %d\n",ch);
+	return 0;
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
