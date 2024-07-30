@@ -126,7 +126,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 ## C Programming 
-### CHAPTER 1
+### CHAPTER 1: VARIABLES, CONSTANTS & KEYWORDS
 ##### IDE that i use
 For C programming i used Dev C++ or VS code. Dev C++ comes with inbuilt compiler so you can directly install and go, But i recommend you to install code blocks or VS code as its updated frequently and get more plugins. All the links are down below.
 Dev C++ LINK:  https://sourceforge.net/projects/orwelldevcpp/
@@ -374,7 +374,7 @@ int main() {
 
 ```
 
-### CHAPTER 2
+### CHAPTER 2: INSTRUCTIONS AND OPERATORS
 #### TYPES OF INSTRUCTIONS
 1. Type declaration Instructions:
 
@@ -596,16 +596,96 @@ int main()
 }
 ```
 
+### Chapter 4: LOOP CONTROL INSTRUCTION
 
+**WHY LOOP:** Sometimes we want our programs to execute few sets of instructions over and over again. For example: Printing 1 to100, first 100 even numbers etc. Hence loops make it easy for a programmer to tell computer that a given set of instructions must be executed repeatedly.
 
+**TYPES OF LOOPS:** 1. while loop 2. do-while loop 3. for loop
 
+**WHILE LOOP:** A while loop is a control structure that executes a block of code as long as a specified condition is true. It’s essentially a repeating `if` statement. The loop ends when the condition becomes false. It’s used when the number of iterations is unknown. The condition is checked before each iteration. If the condition is false at the start, the loop body won’t execute at all.
+```
+int i = 0; 
+while (i<10) {  // condition 
+printf("the value of i is %d\n", i); 
+i++; // The block keeps executing as long as the condition is true
+}
+```
 
+**INCREMENT AND DECREMENT OPERATORS:** (VERY IMP TOPIC)
+1. **Increment Operator (++)**:
+    - Increases the value of a variable by 1.
+    - Two flavors:
+        - **Pre-Increment**: `++m` (Increment first, then use the value)
+        - **Post-Increment**: `m++` (Use the value first, then increment)
+2. **Decrement Operator (–)**:
+    - Decreases the value of a variable by 1.
+    - Similar flavors:
+        - **Pre-Decrement**: `--m`
+        - **Post-Decrement**: `m--`
+* i+=2 is compound assignment which translates to i = i + 2
+* Similar to += operator we have other operators like -=, *=, /=, %=
 
+**DO-WHILE LOOP:** The syntax of do-while loop looks like this:
+```
+do {
+//code
+} while(condition);
+```
+The do-while loop works very similar to while loop.
+* 'while' checks the condition & then executes the code.
+* 'do-while' executes the code & then checks the condition.
+**FOR LOOP:** the syntax of for loop looks like this:
+```
+for(initialize; test; increment or decrement)
+{
+ //code;
+}
+```
+* Initialize --> setting a loop counter to an initial value.
+* test --> Checking a condition.
+* Increment --> Updating the loop counter.
+**A case of decrementing for loop**
+```
+for(i =5; i ; i--)
+	printf("%d"\n,i);
+```
+This for loop will keep running till it becomes 0.
+The loop runs in following steps:
+1. 'I' is initialized to 5
+2. The condition "i"(0 or none) is tested
+3. the code is executed
+4. 'I' is decremented
+5. Condition i is checked & code is executed if it's not 0.
+**The break statement in C:** The break statement is used to exit the loop irrespective of weather the condition is true or false.
+Whenever a "break" is encountered inside the loop, the control is sent outside the loop.
+```
+for(i=0; i<1000;i++)
+{
+	printf("%d",i);
+	if(i==5){
+		break;
+	}
+}
+```
+Output: 0 1 2 3 4 5
+**The Continue Statement in C:** The continue statement is used to immediately move to the next iteration of the loop.
 
-
-
-
-
+The control is taken to the next iteration thus skipping everything below "Continue " inside the loop for the iteration.
+```
+#include <studo.h>
+int main() {
+	int skip =5,i = 0;
+	while(i<10){
+		if(i == skip){
+			i++;
+			continue;
+		}
+		printf("%d\n", i);
+		i++
+	}
+	return 0;
+}
+```
 
 
 
