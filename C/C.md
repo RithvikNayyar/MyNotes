@@ -1,6 +1,6 @@
 
 YOUTUBE LINK: https://bit.ly/50HRCP, https://bit.ly/CWCWH10HR
-## Basic of computing
+# Basic of computing
 
 ##### What is a computer?
 Computer is a device which compute data.
@@ -125,7 +125,7 @@ __________________________________________________________________________
 **I CHOSE DEV C++ FOR MY IDE YOU MAY CHOOSE WHICH EVER YOU FEEL COMFORTABLE AS THE RESULTS WILL BE SAME.
 __________________________________________________________________________
 
-## C Programming 
+# C Programming 
 ### CHAPTER 1: VARIABLES, CONSTANTS & KEYWORDS
 ##### IDE that i use
 For C programming i used Dev C++ or VS code. Dev C++ comes with inbuilt compiler so you can directly install and go, But i recommend you to install code blocks or VS code as its updated frequently and get more plugins. All the links are down below.
@@ -686,6 +686,159 @@ int main() {
 	return 0;
 }
 ```
+NOTES:
+1. Sometimes. the name of the variable might not indicate the behaviour of the program.
+2. Break statement completely exits the loop.
+3. continue statement stops the particular iteration of the loop.
+
+### Chapter 4 Practice set: 
+1) Write a program to print multiplication table of a given number n.
+   sol: 
+```
+ #include<stdio.h>
+
+int main ()
+{
+	 int i, n, a;
+	 printf("Enter the number: ");
+	 scanf("%d", &n);
+	 for (i=1;i<=10;i++)
+		printf("%d * %d = %d\n",n,i,n*i);
+	return 0;
+}  
+```
+2) write a program to print multiplication table of 10 in reverse order.
+   sol:
+```
+#include<stdio.h>
+
+int main ()
+{
+	 int i, n = 10;
+	 for (i=10;i>=1;i--)
+		printf("%d * %d = %d\n",n,i,n*i);
+	return 0;
+}
+```
+
+
+### CHAPTER 5  – FUNCTIONS AND RECURSION
+
+Sometimes out program gets bigger and bigger in size and it's not possible for a programmer to track which piece of code is doing what.
+
+Function is a way to break out code into chunks so that it is possible for a programmer to reuse them.
+
+**WHAT IS A FUNCTION:** A function is a block of code which performs a particular task.
+A function can be reused by the programmer in a given program any number of times.
+```
+#include<sudio.h>
+void display();
+int main(){
+	int a;
+	display();
+	return 0;
+}
+
+void display(){
+	printf("Hi i am display\n");
+}
+```
+What does this program actually do? 
+This program made a function name display, and wrote the main function, In the main function it called display function. what does it do is in between executing main function it executes display function first then executes the whole command.
+
+**FUNCTION CALL:** A function call instructs the compiler to execute the function's body when the call is made.
+
+**FUNCTION DEFINITION:** This part contains the exact set of instructions executed during the function call.
+When a function is called from main(), the main function pauses and temporarily suspends. during this time, control transfers to the called function. once the function finishes executing, main() resumes.
+
+* Execution of a C program starts from main()
+* A C program can have more than one function
+* Every function get called directly or indirectly from main().
+
+**TYPES OF FUNCTION:** There are two types of function in C. Let's talk about them.
+1.  Library functions: Commonly required functions grouped together in a library file on disk.
+2. User defined function: These are the function declared and defined the user.
+
+**WHY USE FUNCTION:** 
+1. TO AVOID REWRITING THE SAME LOGIC AGAIN AND AGAIN.
+2. TO KEEP TRACK OF WHAT WE ARE DOING IN A PROGRAM
+3. TO TEST AND CHECK LOGIC INDEPENDENTLY 
+**PASSING VALUES TO FUNCTION:** We can pass values to a function and can get a value in return from a function.
+```
+int sum (int a, int b)
+```
+A function prototype in programming is a declaration of a function that specifies its name, return type, and parameters but does not include the function body.
+The above prototype means that sum is a function which takes value a and b and returns a value of type int.
+Function definition of sum can be:
+```
+int sum(int a, int b) {
+	int c;
+	c = a+b;
+	return c;
+}
+int d = sum (2,3);
+```
+**NOTE:** 
+ 1. Parameters are the values or variable placeholders in the function definition. Example a & b. 
+ 2. Arguments are the actual values passed to the function to make a call. Example 2 & 3. 
+ 3. A function can return only one value at a time. 
+ 4. If the passed variable is changed inside the function, the function call doesn’t change the value in the calling function.
+**RECURSION:** A Function defined in C can call itself. This is called recursion. A function calling itself is also called recursive function.
+
+Example: 
+A very good example of recursion is factorial. 
+Factorial(n) = 1 x 2 x 3 … x n 
+Factorial(n) = 1 x 2 x3 … (n-1) x n 
+Factorial(n) = Factorial (n-1) x n 
+Since we can write factorial of a number in terms of itself, we can program it using recursion.
+```
+int factorial(int x) {
+int f; 
+if (x == 0 || x == 1) { 
+	return 1; // a program to calculate factorial using recursion 
+} else { 
+	f = x * factorial(x - 1); 
+	return f; 
+	} 
+}
+```
+
+**DRY RUN OF RECURSIVE FACTORIAL PROGRAM:** 
+![[C-20240803190753725.webp|200]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
