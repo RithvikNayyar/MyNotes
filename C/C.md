@@ -691,7 +691,7 @@ NOTES:
 2. Break statement completely exits the loop.
 3. continue statement stops the particular iteration of the loop.
 
-### Chapter 4 Practice set: 
+#### Chapter 4 Practice set: 
 1) Write a program to print multiplication table of a given number n.
    sol: 
 ```
@@ -805,20 +805,195 @@ if (x == 0 || x == 1) {
 
 **DRY RUN OF RECURSIVE FACTORIAL PROGRAM:** 
 ![[C-20240803190753725.webp|200]]
+note:
+1. Recursion is often a direct way to implement certain algorithms, but not always the most direct for every algorithm. Recursion is particularly suited for problems that can be divided into smaller, similar subproblems (like factorial computation or tree traversal), but for some algorithms, iterative approaches might be more straightforward or efficient. 
+2. The condition in a recursive function that stops further recursion is called the base case. This correction clarifies that the base case is crucial as it prevents infinite recursion and ensures the function terminates correctly. 
+3. Sometimes, due to an oversight by the programmer, a recursive function can continue to run indefinitely without reaching a base case, potentially causing a stack overflow or memory error. This statement highlights the risk of infinite recursion and its consequences, emphasizing the importance of properly defining base cases in recursive functions.
 
+#### CHAPTER 5 - PRACTICE SET
+1. Write a program using function to find average of three numbers.
+sol: 
+```
+#include <stdio.h>
 
+// Function to calculate the average of three numbers
+float findAverage(float num1, float num2, float num3) {
+    return (num1 + num2 + num3) / 3;
+}
 
+int main() {
+    float a, b, c, average;
 
+    // Input three numbers
+    printf("Enter three numbers: ");
+    scanf("%f %f %f", &a, &b, &c);
 
+    // Calculate the average
+    average = findAverage(a, b, c);
 
+    // Output the result
+    printf("The average of %.2f, %.2f, and %.2f is %.2f\n", a, b, c, average);
 
+    return 0;
+}
 
+```
+2. Write a function to convert Celsius temperature into Fahrenheit.
+sol:
+```
+#include <stdio.h>
 
+// Function to convert Celsius to Fahrenheit
+float celsiusToFahrenheit(float celsius) {
+    return (celsius * 9/5) + 32;
+}
 
+int main() {
+    float celsius, fahrenheit;
 
+    // Input temperature in Celsius
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &celsius);
 
+    // Convert to Fahrenheit
+    fahrenheit = celsiusToFahrenheit(celsius);
 
+    // Output the result
+    printf("%.2f Celsius is %.2f Fahrenheit\n", celsius, fahrenheit);
 
+    return 0;
+}
+
+```
+3. Write a function to calculate force of attraction on a body of mass ‘m’ exerted by earth. Consider g = 9.8m/s2.
+sol: 
+```
+#include <stdio.h>
+
+// Function to calculate the force of attraction
+float calculateForce(float mass) {
+    const float g = 9.8;  // Gravitational constant
+    return mass * g;
+}
+
+int main() {
+    float mass, force;
+
+    // Input mass of the body
+    printf("Enter the mass of the body (in kg): ");
+    scanf("%f", &mass);
+
+    // Calculate the force of attraction
+    force = calculateForce(mass);
+
+    // Output the result
+    printf("The force of attraction on a body of mass %.2f kg is %.2f N\n", mass, force);
+
+    return 0;
+}
+
+```
+
+4. Write a program using recursion to calculate nth element of Fibonacci series.
+sol:
+```
+#include <stdio.h>
+
+// Function to calculate the nth Fibonacci number using recursion
+int fibonacci(int n) {
+    if (n <= 1) {
+        return n;  // Base cases: fibonacci(0) = 0, fibonacci(1) = 1
+    } else {
+        return fibonacci(n - 1) + fibonacci(n - 2);  // Recursive case
+    }
+}
+
+int main() {
+    int n;
+
+    // Input the position in the Fibonacci series
+    printf("Enter the position in the Fibonacci series: ");
+    scanf("%d", &n);
+
+    // Calculate the nth Fibonacci number
+    int result = fibonacci(n);
+
+    // Output the result
+    printf("The %dth Fibonacci number is %d\n", n, result);
+
+    return 0;
+}
+
+```
+5. Write a recursive function to calculate the sum of first ‘n’ natural numbers.
+sol:
+```
+#include <stdio.h>
+
+// Recursive function to calculate the sum of first n natural numbers
+int sumOfNaturalNumbers(int n) {
+    if (n == 0) {
+        return 0;  // Base case
+    } else {
+        return n + sumOfNaturalNumbers(n - 1);  // Recursive case
+    }
+}
+
+int main() {
+    int n;
+
+    // Input the value of n
+    printf("Enter a positive integer: ");
+    scanf("%d", &n);
+
+    // Calculate the sum of first n natural numbers
+    int sum = sumOfNaturalNumbers(n);
+
+    // Output the result
+    printf("The sum of the first %d natural numbers is %d\n", n, sum);
+
+    return 0;
+}
+
+```
+
+6. Write a program using function to print the following pattern (first n lines) 
+```
+*
+* * *
+* * * * *
+```
+sol:
+```
+#include <stdio.h>
+
+// Function to print the pattern
+void printPattern(int n) {
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= (2 * i - 1); j++) {
+            printf("* ");
+        }
+        printf("\n");
+    }
+}
+
+int main() {
+    int n;
+
+    // Input the number of lines
+    printf("Enter the number of lines: ");
+    scanf("%d", &n);
+
+    // Print the pattern
+    printPattern(n);
+
+    return 0;
+}
+```
+
+### CHAPTER 6 - POINTERS
+A pointer is a variable which stores the address of another variable.
+![[C-20240803195452608.webp|459]]
 
 
 
