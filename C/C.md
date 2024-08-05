@@ -995,26 +995,169 @@ int main() {
 A pointer is a variable which stores the address of another variable.
 ![[C-20240803195452608.webp|459]]
 
+**THE “ADDRESS OF” (&) OPERATOR:** The address of operator is used to obtain the address of a given variable.
+If you refer to the diagrams above, 
+&i → 87994 
+&j → 87998 
+Format specifier for printing pointer address is ‘%p’.
 
+**THE VALUE AT ADDRESS OPERATOR( * ):** The value at address or * operator is used to obtain the value present at a given memory address. It is denoted by *.
+ * * (&i) =72 
+ * * (&j) = 87994
+ **HOW TO DECLARE A POINTER?** A pointer is declared using the following syntax.
+ * int * j => declare a variable j of type int - pointer
+ * j = &i => store address of i in j.
+Just like pointer of type integer, we also have pointers to char, float etc.
+```
+int* ptr;
+float* ptr;
+char* ptr;
+```
+Although it's a good practice to use meaningful variable names, we should be very careful while reading and working on programs from fellow programmers.
+**A PROGRAM TO DEMONSTRATE POINTERS**
+```
+#include<stdio.h>
+int main(){
+	int i =8;
+	int* j;
+	j = &i;
+	printf("add i = %u\n,&i");
+	printf("add i = %u\n,j");
+	printf("add j = %u\n,&j");
+	printf("value i= %d\n",i);
+	printf("value i= %d\n",*(&i)); 
+	printf("value i= %d\n",*j);
+	return 0;
+}
+```
+OUTPUT:
+```
+add i= 87994 
+add i= 87994 
+add j= 87998 
+value i= 8 
+value i= 8 
+value i= 8
+```
+This program sums it all. If you understand it, you have got the idea of pointers.
+**POINTER TO A POINTER:** Just like ‘j’ is pointing to ‘i’ or storing the address of ‘i’, we can have another variable k which can further store the address of ‘j’. What will be the type of ‘k’?
+```
+int **k; 
+k = &j;
+```
+![[C-20240805135216381.webp|293]]
+36 We can even go further one level and create a variable ‘l’ of type int*** to store the address of ‘k’. We mostly use int* and int** sometimes in real world programs.
+**TYPES OF FUNCTION CALL:** Based on the way we pass arguments to the function, function calls are of two types. 
+1. Call by value → Sending the values of arguments. 
+2. Call by reference → Sending the address of arguments.
 
+**CALL BY VALUE:** Here the values of the arguments are passed to the function. Consider this example:
+```
+int c = sum (3,4); //assume x=3 and y=4
+```
+If sum is defined as sum (int a, int b), the values 3 and 4 are copied to a and b. Now even if we change a and b, nothing happens to the variables x and y. 
+This is call by value. In C we usually make a call by value.
 
+**CALL BY REFERENCE:** Here the address of the variables is passed to the function as arguments. 
+Now since the addresses are passed to the function, the function can now modify the value of a variable in calling function using * and & operators.
+```
+void swap (int *x, int *y) { 
+	int temp; 
+	temp = *x; 
+	*x = *y; 
+	*y = temp; 
+}
+```
+This function is capable of swapping the values passed to it. If a = 3 and b = 4 before a call to swap(a, b), then a = 4 and b = 3 after calling swap.
+```
+int main(){ 
+	int a = 3; 
+	int b = 4; // a is 3 and b is 4 
+	swap(&a, &b); 
+	return 0; //now a is 4 and b is 3 }
+```
 
+#### CHAPTER 6 - PRACTICE SET
 
+### CHAPTER 7 - ARRAYS
+An array is a collection of similar elements. Array allows a single variable to store multiple values.
+**SYNTAX:** 
+```
+int marks[90]; // integer array 
+char name[20]; // character array or string 
+float percentile[90]; // float array
+```
+The values can now be assigned to make array like this:
+```
+marks[0] = 33; 
+marks[1] = 12;
+```
+Note: It is very important to note that the array index starts with 0.
+![[C-20240805140327083.webp|284]]
+**ACCESSING ELEMENTS:** Elements of an array can be accessed using:
+```
+scanf("%d", &marks[0]); // input first value
+printf("%d", marks[0]); // output first value of the array
+```
+**INITIALIZATION OF AN ARRAY:** There are many other ways in which an array can be initialized.
+```
+int cgpa[3] = {9, 8, 8}; // arrays can be initialized while declaration float marks[] = {33, 40};
+```
+**ARRAYS IN MEMORY:** Consider this array:
+```
+int arr[3] = {1, 2, 3} // 1 integer = 4 bytes
+```
+This will reserve 4 x 3 = 12 bytes in memory (4 bytes for each integer).
+![[C-20240805140651528.webp|289]]
+**POINTER ARITHMETIC:** 
+A pointer can be incremented to point to the next memory location of that type. Consider this example:
+```
+int i = 32; 
+int *a = &i; // a = 87994 
+a++; // address of i or value of a = 87998 
+char a = 'A'; 
+char *b = &a; // a= 87994 
+b++; // now a = 87995 
 
+float i = 1.7; 
+float *a = &i; // now a = 87994 
+a++; // now a = 87998
+```
+Following operations can be performed on a pointer: 
+1. Addition of a number to a pointer. 
+2. Subtraction of a number from a pointer. 
+3. Subtraction of one pointer from another. 
+4. Comparison of two pointer variables.
+**ACCESSING ARRAY USING POINTERS:** Consider this array:
+![[C-20240805140857836.webp|186]]
+If ptr points to index 0, ptr++ will point to index 1 & so on… 
+This way we can have an integer pointer pointing to first element of the array like this:
+```
+int *ptr = &arr[0]; // or simple arr 
+ptr++; 
+*ptr // will have 9 as its value
+```
+**PASSING ARRAY TO FUNCTIONS:** Array can be passed to the functions like this:
+```
+printArray(arr, n); // function call 
+void printArray(int *i, int n); // function prototype 
+// or 
+void printArray(int i[], int n);
+```
+**MULTIDIMENSIONAL ARRAYS:** An array can be of 2 dimension/ 3 dimension/ n dimensions. 
+A 2 dimensions array can be defined like this:
+```
+int arr[3][2] = {{1, 4} {7, 9} {11, 22}};
+// We can access the elements of this array as arr[0][0] , arr[0][1] & so on …
+```
+**2-D ARRAYS IN MEMORY:** 
+A 2d array like a 1d array is stored in contiguous memory blocks like this:
+![[C-20240805141509830.webp|319]]
+#### CHAPTER 7 – PRACTICE SET
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+### CHAPTER 8 – STRINGS
+A string is a 1-D character array terminated by a null character (‘\0’) 
+A null character is used to denote the termination of a string. Characters are stored in contiguous memory locations.
 
 
 
