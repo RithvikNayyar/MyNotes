@@ -2,6 +2,7 @@
 Python is a dynamically typed, General Purpose Programming Language that supports an object- oriented programming approach as well as a functional programming approach.
 Python is also an interpreted and high-level programming language.
 It was created by Guido Van Rossum in 1989.
+It is a very powerful language, is portable, has built-in object types, many libraries and is free.
 
 **Features of Python:** 
 * Python is a simple and easy to understand 
@@ -17,7 +18,7 @@ It was created by Guido Van Rossum in 1989.
 * it is used to create web applications
 * it can be used to handle databases
 * it is used in business and accounting to perform complex mathematical operations along with quantitative and qualitative analysis.
-
+![[Python-20240905045112766.webp|466]]
 **What is a syntax?**
 Syntax is the arrangement of words and phases to create well-formed sentences in a language, in the case of a computer language, the syntax is the structural arrangement of comments, variables, numbers, operators, statements, loop, functions, classes, object, etc., which helps us to understand the meaning or semantics of a computer language.
 
@@ -86,3 +87,53 @@ def foods():
 	print(icecream + " is a global variable value.")
 foods()
 ```
+
+##### Data types
+ Data type specifies the type of value a variable requires to do various operations without causing an error. By default, the python provides the following built-in data types:
+**Numeric data: int, float, complex**
+ Int 3,-8,0
+ Float: 7.349,-9.0
+ Complex: 6 + 2i 
+**Text data: str:**
+ str: "Hello world!!!", "Python Programming"
+**Boolean data:**
+ Boolean data consists of values of true or false.
+**Sequenced data: list, tuples, range**
+ List: A list is an ordered collection of data with elements separated by a comma and enclosed within square brackets. Lists are mutable and can be modified after creation.
+ ```
+ list1 = [8,2.3,[-4,5],["apple","banana"]]
+ print(list1)
+ ```
+ Output:
+ ```
+ [8, 2.3, [-4, 5], ['apple', 'banana']]
+ ```
+
+Tuple: A tuple is an ordered collection of data with elements separated by a comma and enclosed within parentheses. Tuples are immutable and can not be modified after creation.
+```
+tuple1 = (("parrot","sparrow"),("Lion","Tiger"))
+print(tuple1)
+```
+Output
+```
+(('parrot', 'sparrow'), ('Lion', 'Tiger'))
+```
+**Range:** Range returns a sequence of numbers as specified by the user. If not specified by the user then it starts from 0 by default and increments by 1.
+```
+sequence1 = range(4,14,2)
+for i in sequence1:
+	print(i)
+```
+**Mapped data: dict**
+Dict: a dictionary is an unordered collection of data containing a key: value pair. The key: value pairs are enclosed within curly brackets.
+```
+dict1 = {"name":"sakshi", "age":20, "canvote":True}
+print(dict1)
+```
+Output:
+```
+{'name': 'Sakshi', 'age': 20, 'canVote': True}
+```
+
+
+

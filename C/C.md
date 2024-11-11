@@ -18,8 +18,7 @@ Data can be:
 1) Accuracy
 2) speed
 * Disadvantages: Cannot calculate physical phenomena
-![[Mynotes/C/c all pictures in notes/Pasted image 20240715094151.png]] 
-
+![[Pasted image 20240717080151.png]]
 #### Analog Computer
 * They work on physical phenomena - Advantage
 * They are less accurate & slow - Disadvantage
@@ -27,8 +26,13 @@ Ex: Speedometer, Voltage meter, Pressure gauge, etc.
 
 #### Hybrid computer
 * It has some portion of digital computer & Analog Computer (ex: Digital speedometer, Digital thermometer, Electric multimeter)
+___________________
+
+![[Pasted image 20240715094407.png|541]]
+
+
 __________________________________________________________________________
-![[Mynotes/C/c all pictures in notes/Pasted image 20240715094407.png]]
+
 ![[Mynotes/C/c all pictures in notes/Pasted image 20240715094454.png]]
 ![[Mynotes/C/c all pictures in notes/Pasted image 20240715100243.png]]
 * Note: The Above pictures shows the types of devices, Ac - Dc current & How computer reads binary number in system.
