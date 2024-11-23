@@ -57,8 +57,18 @@ type(age)
 print(type(age))
 ##If you run this python will automatically tell what type of data is given init.
 ```
-**Introduction to variables:**
+**Introduction to variables:** Variables are fundamental elements in programming used to store data that can be referenced and manipulated in a program. In Python, variables are created when you assign a value to them, and they do not need explicit declaration to reserve memory spaces. The declaration happens automatically when you assign a value to a variable. 
+```
+a=100 ## a is a variable
+```
+**Declaring and Assigning Variables:** 
+```
+age = 32
+height = 5.9
+name = "Krish"
+is_student = True
 
+```
 
 
 
