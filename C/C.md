@@ -33,8 +33,8 @@ ___________________
 
 __________________________________________________________________________
 
-![[Mynotes/C/c all pictures in notes/Pasted image 20240715094454.png]]
-![[Mynotes/C/c all pictures in notes/Pasted image 20240715100243.png]]
+![[Notes/C/c all pictures in notes/Pasted image 20240715094454.png]]
+![[Notes/C/c all pictures in notes/Pasted image 20240715100243.png]]
 * Note: The Above pictures shows the types of devices, Ac - Dc current & How computer reads binary number in system.
 
 ##### How does a Digital computer work
@@ -46,13 +46,13 @@ __________________________________________________________________________
 * CPU takes data from input/output devices, storage devices(Hard disk drive)(Music, video) 
 * CPU doesn't have direct link to HDD, if it were then as soon as it reads the data then it would run it without permission or directly open all files as soon as reads HDD.
 * To over-come this issue there is a temporary Memory called RAM, So first the data is sent to ram then it runs on the system.
-![[Mynotes/C/c all pictures in notes/Pasted image 20240715105723.png]]
+![[Notes/C/c all pictures in notes/Pasted image 20240715105723.png]]
 
 #### Software & It's Development
 * Software either control hardware or do some specific task
 * Software is a set of instructions written in specific computer understandable form to perform specific task.
 * EX: When you are on a desktop and type something like your name but nothing happens and then you open a notepad and type your name then you see your name on the notepad. So this show that I/O devices are controlled through software.
-![[Mynotes/C/c all pictures in notes/Pasted image 20240715111547.png]] 
+![[Notes/C/c all pictures in notes/Pasted image 20240715111547.png]] 
 
 ##### How to develop a software
 * For developing a software you need to know a programming language (c, c++, java, python)
@@ -95,7 +95,7 @@ __________________________________________________________________________
 
 #### Language Translator 
 A translator or programming language processor is a generic tern that can refer to software that converts code from one language to another. Follow diagram below...
-![[Mynotes/C/c all pictures in notes/Pasted image 20240716070523.png]]
+![[Notes/C/c all pictures in notes/Pasted image 20240716070523.png]]
 
 ##### Assembly Language and Assembler
 ###### Assembly Language 
@@ -110,12 +110,12 @@ A translator or programming language processor is a generic tern that can refer 
 - An assembler is a specialized software tool.
 - It converts assembly code into machine language (binary code) that the CPU can execute.
 - Assemblers play a crucial role in translating human-readable assembly instructions into executable machine code.
-![[Mynotes/C/c all pictures in notes/Pasted image 20240716071718.png]]
+![[Notes/C/c all pictures in notes/Pasted image 20240716071718.png]]
 
 ##### Compiler & Interpreter
 - A translator or programming language processor is a generic term that can refer to anything that converts code from one computer language into another.
 - Compiler and interpreter are translator for high level Language.
-![[Mynotes/C/c all pictures in notes/Pasted image 20240716073124.png]]
+![[Notes/C/c all pictures in notes/Pasted image 20240716073124.png]]
 
 | COMPILER                                                                                                                                                                                                                           | INTERPRETER                                                                                                                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -148,7 +148,7 @@ void main ()
 }
 ```
 OUTPUT: Hello world
-![[Mynotes/C/c all pictures in notes/Pasted image 20240716084721.png]]
+![[Notes/C/c all pictures in notes/Pasted image 20240716084721.png]]
 ***
 The above code is also called Boiler plate code.
 *** 
@@ -191,12 +191,12 @@ And there you have it—a glimpse into the evolution of C, from its humble begin
 3. Efficiency 
 4. Portability (The main reason why c is build)
 5. Flexibility
-![[Mynotes/C/c all pictures in notes/Pasted image 20240717080151.png|277]]
+![[Notes/C/c all pictures in notes/Pasted image 20240717080151.png|277]]
 
 #### How to write C Program
 ##### Rules for making C
 1. C is a functional programming language. (Function is a set of statement which perform some action)
-![[Mynotes/C/c all pictures in notes/Pasted image 20240717082009.png|652]]
+![[Notes/C/c all pictures in notes/Pasted image 20240717082009.png|652]]
 2. C program require at least one function.
 3. C program require main() to run.
 4. Every program starts with main() and ends with main().
@@ -210,8 +210,8 @@ And there you have it—a glimpse into the evolution of C, from its humble begin
 #### Variables
 A variable is a container which stores a ‘value’. In kitchen, we have containers storing Rice, Sugar etc. Similar to that, variables in C stores value of a constant.
 (hindi-english: simply, it is name of the memory location. Variable ek memory location ka naam hai).
-![[Mynotes/C/c all pictures in notes/Pasted image 20240717100150.png]]
-![[Mynotes/C/c all pictures in notes/Pasted image 20240717101015.png|459]] 
+![[Notes/C/c all pictures in notes/Pasted image 20240717100150.png]]
+![[Notes/C/c all pictures in notes/Pasted image 20240717101015.png|459]] 
 
 ##### RULES FOR NAMING VARIABLES IN C 
 1. First character must be an alphabet or underscore (_) 
@@ -232,7 +232,7 @@ Primarily, there are three types of constants:
 
 #### KEYWORDS 
 These are reserved words, whose meaning is already known to the compiler. There are 32 keywords available in C.
-![[Mynotes/C/c all pictures in notes/C all in 1 notes-20240717102323564.webp]]
+![[Notes/C/c all pictures in notes/C all in 1 notes-20240717102323564.webp]]
 
 #### COMMENTS
 
