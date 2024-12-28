@@ -68,9 +68,13 @@ height = 5.9
 name = "Krish"
 is_student = True
 
+##printing the variable
+
+pritn("age :", age)
+print("Height:",height)
+print("Name:",name)
 ```
-
-
+**Naming Conventions:** variable name we describe should be descriptive. They must start with a letter or an ```_``` and contain letters, numbers and underscores.
 
 
 
