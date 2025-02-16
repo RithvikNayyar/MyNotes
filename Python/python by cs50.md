@@ -51,7 +51,7 @@ if __name__ == "__main__":
 ```
 
 WEEK 0 is Completed with this.
-###### WEEK - 1 : 
+###### WEEK - 1 : PROBLEM SET 1 Conditionals
 - Deep thought: In this if the number 42 is written in number or Forty-Two or forty two they print yes and rest no.
 ```
 i = input("").lower()
@@ -117,5 +117,27 @@ elif '/' in j:
     print(a)
 ```
 Firstly we take input from the user and use split function to remove all the spaces other wise we will encounter a issue of spaces where it says there are 5 inputs but there are actually 3. Now we convert i and k to float so that there values become if 5 then 5.0. Now by using basic if-else function we can solve this problem.
+- The `split()` function in Python breaks a string into smaller pieces, called "substrings," based on a specific separator. If you don't specify a separator, it will split the string by spaces.
+- Meal time: In this we have to determine weather it is breakfast, lunch or dinner time.
+```
+def main():
+	a = input("What is the time? ")
+	time = convert(a)
+	if 7 <= time <= 8:
+		print("breakfast time")
+	elif 12 <= time <= 13:
+		print("lunch time")
+	elif 18 <= time <= 19:
+		print("dinner time")
+def convert(time):
+    hours, minutes = time.split(":")
+    mins = float(minutes) / 60
+    return float(hours) + mins
 
-- Meal time: 
+
+if __name__ == "__main__":
+    main()
+```
+To solve the problem, we first need to take the time as input in the main function, typically in the format "hours: minutes". To process this input, we convert it into a decimal representation of time. For this purpose, we use a helper function named `convert`. Inside the `convert` function, we split the input string into hours and minutes using the `split` function, which separates the two components based on the colon ":". Once we have the hours and minutes, we calculate the decimal equivalent of the minutes by dividing them by 60. We then add this value to the hours to get the total time in decimal form. After computing the result, we return this decimal value to the main function. Finally, using conditional statements like `if-else`, we can easily solve the problem by performing any required comparisons or calculations based on the decimal time obtained. This approach ensures clarity and efficiency in handling time-related computations.
+
+###### WEEK - 2: Loops Problem set 2
