@@ -141,3 +141,35 @@ if __name__ == "__main__":
 To solve the problem, we first need to take the time as input in the main function, typically in the format "hours: minutes". To process this input, we convert it into a decimal representation of time. For this purpose, we use a helper function named `convert`. Inside the `convert` function, we split the input string into hours and minutes using the `split` function, which separates the two components based on the colon ":". Once we have the hours and minutes, we calculate the decimal equivalent of the minutes by dividing them by 60. We then add this value to the hours to get the total time in decimal form. After computing the result, we return this decimal value to the main function. Finally, using conditional statements like `if-else`, we can easily solve the problem by performing any required comparisons or calculations based on the decimal time obtained. This approach ensures clarity and efficiency in handling time-related computations.
 
 ###### WEEK - 2: Loops Problem set 2
+- camelCase: We need to convert camel case to snake case which is `snake_case`.
+```
+camel = input("camelCase: ")
+snake = ''
+for char in camel:
+    if char.isupper():
+        snake += "_" + char.lower()
+    else:
+        snake += char
+print("snake_case: ", snake)
+```
+For this we took camel case input from the use and took an empty sting in snake. now using for loop we take characters in camel and checks with if condition weather it is upper or not. If upper then it prints like `suppose 'httpRequset' then it prints http_request`. So it basically divides the the part first then add `_` and adds the rest part in lower characters. If not upper it directly prints the camel case input. 
+
+- Coke Machine: For this problem the amount is fixed which is 50 cents and there are 3 coins which are {25, 10, 5}. so we need to make the amount 0 by inserting coins.
+```
+def main():
+	total = 0
+	while True:
+		coin = int(input("insert coin: "))
+		if coin in {5,10,25}:
+			total += coin
+			print(f"Amount Due: {50 - total}")
+			if total >= 50:
+				change = total - 50
+				print(f"Change owed: {change}")
+				break
+			else:
+	            print(f"Amount Due: {50}")
+main()
+```
+So, for this we took the initial total value as 0. Now we used while true to create a loop and gave input of coin. Now if coin are those 3 values then we replace total value with coin. Now we deduct the the amount and give amount due with print function. After this we too if function and checked weather total greater or equal to 50 which shows how much amo
+unt is left over and if its 0 
