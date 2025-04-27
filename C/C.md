@@ -33,8 +33,8 @@ ___________________
 
 __________________________________________________________________________
 
-![[Notes/C/c all pictures in notes/Pasted image 20240715094454.png]]
-![[Notes/C/c all pictures in notes/Pasted image 20240715100243.png]]
+![[Notes/C/c all pictures in notes/Pasted image 20240715094454.png|483]]
+![[Notes/C/c all pictures in notes/Pasted image 20240715100243.png|485]]
 * Note: The Above pictures shows the types of devices, Ac - Dc current & How computer reads binary number in system.
 
 ##### How does a Digital computer work
@@ -46,13 +46,13 @@ __________________________________________________________________________
 * CPU takes data from input/output devices, storage devices(Hard disk drive)(Music, video) 
 * CPU doesn't have direct link to HDD, if it were then as soon as it reads the data then it would run it without permission or directly open all files as soon as reads HDD.
 * To over-come this issue there is a temporary Memory called RAM, So first the data is sent to ram then it runs on the system.
-![[Notes/C/c all pictures in notes/Pasted image 20240715105723.png]]
+![[Notes/C/c all pictures in notes/Pasted image 20240715105723.png|530]]
 
 #### Software & It's Development
 * Software either control hardware or do some specific task
 * Software is a set of instructions written in specific computer understandable form to perform specific task.
 * EX: When you are on a desktop and type something like your name but nothing happens and then you open a notepad and type your name then you see your name on the notepad. So this show that I/O devices are controlled through software.
-![[Notes/C/c all pictures in notes/Pasted image 20240715111547.png]] 
+![[Notes/C/c all pictures in notes/Pasted image 20240715111547.png|555]] 
 
 ##### How to develop a software
 * For developing a software you need to know a programming language (c, c++, java, python)
