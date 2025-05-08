@@ -181,4 +181,4 @@ Key Attributes:
 ```html
 <img src="image.jpg" alt="Description of the image" width="300" height="200">
 ```
-It’s as simple as that! The `<img>` tag enhances your webpage with visuals, helping communicate ideas or aesthetics effectively. Would you like to explore its advanced usage?
+It’s as simple as that! The `<img>` tag enhances your webpage with visuals, helping communicate ideas or aesthetics effectively. 
