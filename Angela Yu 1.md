@@ -182,7 +182,6 @@ Key Attributes:
 <img src="image.jpg" alt="Description of the image" width="300" height="200">
 ```
 It’s as simple as that! The `<img>` tag enhances your webpage with visuals, helping communicate ideas or aesthetics effectively. 
-<<<<<<< HEAD
 
 **HTML BOILER PLATE**
 ```
