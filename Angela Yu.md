@@ -181,4 +181,120 @@ Key Attributes:
 ```html
 <img src="image.jpg" alt="Description of the image" width="300" height="200">
 ```
-It’s as simple as that! The `<img>` tag enhances your webpage with visuals, helping communicate ideas or aesthetics effectively. Would you like to explore its advanced usage?
+It’s as simple as that! The `<img>` tag enhances your webpage with visuals, helping communicate ideas or aesthetics effectively. 
+
+**HTML BOILER PLATE**
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Document Title</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+```
+Absolutely! Here's a **simple and beginner-friendly introduction to CSS notes** that you can use for studying or quick revision.
+
+---
+
+🌟 Introduction to CSS (Cascading Style Sheets)
+
+📌 What is CSS?
+
+CSS stands for **Cascading Style Sheets**.  
+It is used to **style** and **layout** web pages — for example, to change colors, fonts, spacing, and the positioning of elements.
+
+🧱 Why Use CSS?
+- Separates **content** (HTML) from **design** (CSS)
+- Makes websites look attractive
+- Helps maintain consistency across multiple pages
+- Enables **responsive design** for different screen sizes
+
+🧾 Basic Syntax
+```css
+selector {
+  property: value;
+}
+```
+✅ **Example:**
+```css
+p {
+  color: red;
+  font-size: 16px;
+}
+```
+- `p` → The selector (which HTML element to style)
+- `color` & `font-size` → Properties
+- `red` & `16px` → Values
+
+🎨 Types of CSS
+1. **Inline CSS** (inside an HTML tag)
+
+```html
+<p style="color:blue;">This is blue text.</p>
+```
+2. **Internal CSS** (within `<style>` in the `<head>` section)
+```html
+<style>
+  p { color: green; }
+</style>
+```
+3. **External CSS** (in a separate `.css` file)
+```css
+/* style.css */
+h1 {
+  color: orange;
+}
+```
+Linked in HTML like:
+```html
+<link rel="stylesheet" href="style.css">
+```
+🧩 Common CSS Properties
+
+| Property           | Example Value   | Description               |
+| ------------------ | --------------- | ------------------------- |
+| `color`            | red, #ff0000    | Text color                |
+| `background-color` | lightblue       | Background color          |
+| `font-size`        | 16px, 1em       | Size of the text          |
+| `text-align`       | center, left    | Text alignment            |
+| `margin`           | 10px            | Space outside the element |
+| `padding`          | 10px            | Space inside the element  |
+| `border`           | 1px solid black | Border around the element |
+
+📌 Selectors in CSS
+
+|Selector|Example|Meaning|
+|---|---|---|
+|Element Selector|`p`|All `<p>` elements|
+|Class Selector|`.box`|Elements with class="box"|
+|ID Selector|`#main`|Element with id="main"|
+|Grouping|`h1, p`|Applies to multiple selectors|
+
+✅ Example
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #f0f8ff;
+    }
+    h1 {
+      color: darkblue;
+    }
+    p {
+      color: darkgreen;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello CSS</h1>
+  <p>This is a styled paragraph.</p>
+</body>
+</html>
+```

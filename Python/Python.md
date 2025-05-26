@@ -8,13 +8,13 @@ It is a very powerful language, is portable, has built-in object types, many lib
 * Python is a simple and easy to understand 
 * it is interpreted and platform-independent which make dubbing very easy 
 * python is a open source language
-* python provides very big library support some of the popular libraries include NumPy, Tensor flow, Selenium, OpenCV etc.
+* python provides very big library support some of the popular libraries include NumPy, Tensor flow, Selenium, Open CV etc.
 * it is possible to integrate other programming language within python.
 
 **What is Python used for?**
 * Python is used in Data visualization to create plots and graphical representations.
 * python helps in data analytics to analyze and and understand raw data for insights and trends.
-* it is used in AI and Machine Learning to simulate human behaviour and to learn from past data without hard coding.
+* it is used in AI and Machine Learning to simulate human behavior and to learn from past data without hard coding.
 * it is used to create web applications
 * it can be used to handle databases
 * it is used in business and accounting to perform complex mathematical operations along with quantitative and qualitative analysis.
