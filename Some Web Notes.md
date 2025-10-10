@@ -1,10 +1,12 @@
+##### HTML :
 A webpage typically consists of these key building blocks:
 
 - **HTML (Hypertext Markup Language)**: The backbone of the webpage, it structures the content and provides the semantic meaning (like headings, paragraphs, images, links, etc.).
 - **CSS (Cascading Style Sheets)**: This styles the page, adding visual appeal by controlling layout, fonts, colors, and even animations.
 - **JavaScript**: Brings the page to life by enabling interactivity, like dropdown menus, sliders, or dynamic content updates.
 
-Absolutely! Here’s a list of some important and commonly used HTML tags:
+Here’s a list of some important and commonly used HTML tags:
+- <!DOCTYPE html>: This declaration is used at very beginning of the document which specify that i am using the latest version of HTML which is version 5. This ensures that webpages are displayed correctly.
 - **`<html>`**: The root element that wraps the entire HTML document.
 - **`<head>`**: Contains metadata about the document (e.g., title, links to CSS, scripts).
 - **`<title>`**: Specifies the title of the webpage (displayed in the browser tab).
@@ -36,7 +38,7 @@ HTML void elements, also known as empty elements, are tags that do not have clos
 - **`<col>`**: Defines columns in a table's `<colgroup>`.
 
 Void elements don't require a closing tag, but in XHTML and some modern HTML practices, they are often written with a self-closing slash, like `<br />`.
-
+**HTML BOILERPLATE**
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -67,7 +69,7 @@ HTML provides several list elements to create structured lists, each with its ow
 2. **Ordered List (`<ol>`)**:
     - Creates a list with numbers or letters.
     - Example:
-        ```html
+       ```html
         <ol>
             <li>Step 1: Open your editor</li>
             <li>Step 2: Write code</li>
@@ -182,27 +184,42 @@ Key Attributes:
 <img src="image.jpg" alt="Description of the image" width="300" height="200">
 ```
 It’s as simple as that! The `<img>` tag enhances your webpage with visuals, helping communicate ideas or aesthetics effectively. 
-<<<<<<< HEAD
+**HTML TABLE**:
+1. The `<table>` tab is used to create a table in HTML.
+2. `<tr>` defines a table row,
+3. `<td>` defines a table data cell
+4. `<th>` defines a table header cell (Bold and centered).
+5. `<thead>, <tbody> & <tfoot>` are used to organize the table into header, body, and footer sections.
+6. The `border` attribute adds a border around the table and its cell.
+7. The `cellpadding` attribute sets spaces inside a cell,
+8. The `cellspacing` attribute sets space between the cells.
+9. The `colspan` attribute merges cell horizontally across columns.
+10. The `rowspan` attribute merges cells vertically across row.
+11. Tables are mainly used to display structured data like schedules, reports, or comparison charts.
 
-**HTML BOILER PLATE**
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Document Title</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-</body>
-</html>
-```
-Absolutely! Here's a **simple and beginner-friendly introduction to CSS notes** that you can use for studying or quick revision.
+**HTML STYLE:** 
+- The `style` attribute is used to add inline CSS directly inside an HTML tag. It controls the appearance of elements like color, font, size, background and alignment. 
+- Multiple style properties can be used and are separated by `semicolons (;).`
+- Common properties: `color, background-color, font-size, text-align,bordor`.
+- Styling can be done in three ways: inline, internal and external, **but `style` attribute is only for inline styling.
+
+**HTML Text Formatting:** 
+Formatting elements were designed to display special types of text:
+- `<b>` - Bold text
+- `<strong>` - Important text
+- `<i>` - Italic text
+- `<em>` - Emphasized text
+- `<mark>` - Marked text
+- `<small>` - Smaller text
+- `<del>` - Deleted text
+- `<ins>` - Inserted text
+- `<sub>` - Subscript text
+- `<sup>` - Superscript text
+
+
 
 ---
-
-🌟 Introduction to CSS (Cascading Style Sheets)
+##### Introduction to CSS (Cascading Style Sheets)
 
 📌 What is CSS?
 

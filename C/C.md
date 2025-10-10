@@ -284,7 +284,7 @@ scanf("%d",&i);
 - ‘&’ is the “address of” operator and it means that the supplied value should be copied to the address which is indicated by variable i.
 
 #### Chapter 1 Practice set
-*** Just in case if you don't know the formula you can always use the help of chatgpt
+* Just in case if you don't know the formula you can always use the help of chatgpt
 1) write a C program to calculate area of rectangle:
 		a. Using hard coded inputs
 		b, Using inputs supplied by the user.
