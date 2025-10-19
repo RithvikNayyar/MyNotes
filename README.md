@@ -1,5 +1,5 @@
 # MyNotes
 
-These Notes Photos can be only accessed in Obsidian. Last Update - 10/7/2025
+These Notes Photos can be only accessed in Obsidian. Last Update - 19/10/2025.
 
 
