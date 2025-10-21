@@ -136,3 +136,51 @@ ___
 - Execute permission is required for running scripts or entering directories.
 ___
 
+**File Permission Using Numeric Mode:**
+- Permissions can be set using numbers (octal mode):
+  `read (r) = 4`, `write (w) = 2`, and `execute (x) = 1`.
+- Sum value to combine permissions:
+  `rwx =7`, `rw- = 6`
+- Specify three digits for owner, group and others. Example:
+  `chmod 755 script.sh` gives owner `rwx`, group and other `r-x`.
+- Here is the correct list from 0 to 7:
+    - `0` = no permissions (`---`)
+    - `1` = execute only (`--x`)
+    - `2` = write only (`-w-`)
+    - `3` = write and execute (`-wx`)
+    - `4` = read only (`r--`)
+    - `5` = read and execute (`r-x`)
+    - `6` = read and write (`rw-`)
+    - `7` = read, write, and execute (`rwx`)
+___
+
+**File Ownership Commands (chmod, chgrp):**
+- Use `chown user:groupfile` to change both owner and group of a file.
+  Example: `chmod alice:developers app.log`
+- Change owner only: `chown:developers file.txt` or use `chgrp developers file.txt`.
+- Only root or file owner can change ownership.
+- Use `-R` flag to apply change recursively to directories.
+___
+
+**Access Control List (ACL):**
+- ACL allows setting more detailed permissions beyond standard Unix permissions.
+- Enable extended permissions on a file system using `mount -o acl/partition`.
+- Use `setfacl` to add specific permissions for user or groups.
+  Example: `setfacl -m u:alice:rw file.txt`.
+- View ACL settings with `getfacl filename`
+- ACL is useful when fine-grained access control is needed for multiple users or groups.
+___
+
+**Help command:**
+- Use `--help` with most commands to display basic usage.
+  Example: `ls --help`
+- The `man` Command shows detailed manual pages.
+  Example: `man chmod`.
+- Use `info` for structured, in - depth documentation.
+  Example: `info coreutils`.
+- `apropos` searches for commands by keyword.
+  Example: `apropos "copy file"`.
+- These tools help understand syntax, options and examples directly from the terminal.
+___
+
+
