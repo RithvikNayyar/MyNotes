@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "1046bba6f0a6b1ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "e671c91da8525879",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b95b45382b98a9b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Azure Fundamentals/Azure Fundamentals - Recap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Azure Fundamentals - Recap"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4095629580374c97",
+    "type": "split",
+    "children": [
+      {
+        "id": "45c22a881549308c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2835e8779b49b0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "629a5d559f36c3b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "27dd4425f0495c1d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "69c07868019138fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "38fb42ebb3d3c518",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8b7a7d7319e33eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "755b0a5f545b67c2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Python/Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES"
+            }
+          },
+          {
+            "id": "65d3ad547e25508f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/Python/Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES"
+            }
+          },
+          {
+            "id": "27adc16522f7bbeb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e5046e411a710630",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/Python/Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-git:Open Git source control": false,
+      "remotely-secure:Remotely Sync": false
+    }
+  },
+  "active": "e2835e8779b49b0f",
+  "lastOpenFiles": [
+    "Notes/Computer Network Security/Computer Network.md",
+    "Notes/C/C.md",
+    "Notes/Angela Yu.md",
+    "Notes/Python/Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES.md",
+    "Notes/Python/Python.md",
+    "Notes/Python/Coursera Python Mode 1.md",
+    "Notes/Python/python by cs50.md",
+    "Notes/Azure Fundamentals/Azure Fundamentals - Recap.md",
+    "Excalidraw/Drawing 2025-04-24 20.27.33.excalidraw.md",
+    "Excel.md"
+  ]
+}
