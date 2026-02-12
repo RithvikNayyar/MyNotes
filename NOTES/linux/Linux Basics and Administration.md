@@ -17,7 +17,7 @@ ___
 - It is free to use, modify, and distribute, thanks to open-source licensing.
 - Linux is stable, secure and efficient, making it a top choice for servers, cloud computing, and development environments.It is widely used in web hosting, networking, cyber-security, programming, and embedded systems due to its reliability and performance.
 - It supports multitasking, multi-user operations, and runs on wide variety of hardware.
-- Linux provide full transparency and customisation of the system unlike mac or windows.
+- Linux provide full transparency and customization of the system unlike mac or windows.
 ___
 
 **What is root?**
