@@ -25,4 +25,4 @@
 
 #### HTML 
 - Hypertext markup language - this tells us about what is the structure and formatting of the website.
-- 
+- The backbone of the webpage, it structures the content and provides the semantic meaning (like headings, paragraphs, images, links, etc.).
