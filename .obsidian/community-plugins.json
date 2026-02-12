@@ -1,15 +1,13 @@
 [
   "table-editor-obsidian",
   "better-word-count",
-  "copilot",
   "editing-toolbar",
   "obsidian-enhancing-export",
   "obsidian-excalidraw-plugin",
   "file-tree-alternative",
   "image-converter",
-  "obsidian-image-toolkit",
   "oz-image-plugin",
-  "obsidian-latex-suite",
-  "remotely-secure",
-  "obsidian-git"
+  "obsidian-git",
+  "easy-typing-obsidian",
+  "obsidian-image-toolkit"
 ]
