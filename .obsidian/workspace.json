@@ -105,85 +105,53 @@
             }
           }
         ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300
-  },
-  "right": {
-    "id": "38fb42ebb3d3c518",
-    "type": "split",
-    "children": [
+      },
       {
-        "id": "b8b7a7d7319e33eb",
+        "id": "efd88e357cd95124",
         "type": "tabs",
         "children": [
-          {
-            "id": "755b0a5f545b67c2",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Notes/Python/Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES"
-            }
-          },
-          {
-            "id": "65d3ad547e25508f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Notes/Python/Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES"
-            }
-          },
-          {
-            "id": "27adc16522f7bbeb",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
           {
             "id": "e5046e411a710630",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Python/Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES.md",
+                "file": "NOTES/Apna College Notes/Introduction to Web Development (Incomplete).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Complete Python With DSA Bootcamp + LEETCODE Exercises NOTES"
+              "title": "Outline of Introduction to Web Development (Incomplete)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "9fc1250657932501",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f100fe39c65941b7",
+            "type": "leaf",
+            "state": {
+              "type": "keep-the-rhythm",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Keep the Rhythm"
             }
           }
         ]
       }
     ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "38fb42ebb3d3c518",
+    "type": "split",
+    "children": [],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
@@ -198,10 +166,10 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "copilot:Open Copilot Chat": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "keep-the-rhythm:Word Count Stats": false
     }
   },
   "active": "ca8da617db667788",
