@@ -67,11 +67,15 @@
     "highestStreak": 0,
     "highestStreakStartDate": "",
     "highestStreakEndDate": "",
-    "daysWithCompletedGoal": [],
+    "daysWithCompletedGoal": [
+      "2026-02-13",
+      "2026-02-14",
+      "2026-02-17"
+    ],
     "dailyActivity": [
       {
         "date": "2026-02-13",
-        "filePath": "NOTES/Apna College Notes/Introduction to Web Development (Incomplete).md",
+        "filePath": "NOTES/Apna College Notes/Web Development (Incomplete).md",
         "wordCountStart": 907,
         "charCountStart": 5635,
         "changes": [
@@ -134,6 +138,26 @@
             "timeKey": "13:55",
             "w": 0,
             "c": 1
+          },
+          {
+            "timeKey": "14:50",
+            "w": 21,
+            "c": 130
+          },
+          {
+            "timeKey": "17:30",
+            "w": 21,
+            "c": 142
+          },
+          {
+            "timeKey": "17:35",
+            "w": 8,
+            "c": 84
+          },
+          {
+            "timeKey": "17:50",
+            "w": 24,
+            "c": 113
           }
         ],
         "id": 1
@@ -151,6 +175,270 @@
           }
         ],
         "id": 2
+      },
+      {
+        "date": "2026-02-14",
+        "filePath": "NOTES/Apna College Notes/Web Development (Incomplete).md",
+        "wordCountStart": 1409,
+        "charCountStart": 8841,
+        "changes": [
+          {
+            "timeKey": "07:05",
+            "w": 25,
+            "c": 131
+          },
+          {
+            "timeKey": "07:10",
+            "w": 74,
+            "c": 411
+          },
+          {
+            "timeKey": "07:15",
+            "w": 21,
+            "c": 125
+          },
+          {
+            "timeKey": "07:20",
+            "w": 55,
+            "c": 255
+          },
+          {
+            "timeKey": "07:25",
+            "w": 67,
+            "c": 485
+          },
+          {
+            "timeKey": "07:30",
+            "w": 23,
+            "c": 113
+          },
+          {
+            "timeKey": "07:35",
+            "w": 31,
+            "c": 171
+          },
+          {
+            "timeKey": "07:40",
+            "w": 56,
+            "c": 330
+          },
+          {
+            "timeKey": "07:45",
+            "w": 64,
+            "c": 355
+          },
+          {
+            "timeKey": "07:50",
+            "w": 51,
+            "c": 239
+          },
+          {
+            "timeKey": "07:55",
+            "w": 88,
+            "c": 486
+          },
+          {
+            "timeKey": "08:00",
+            "w": 33,
+            "c": 199
+          },
+          {
+            "timeKey": "08:05",
+            "w": 21,
+            "c": 90
+          },
+          {
+            "timeKey": "10:35",
+            "w": 17,
+            "c": 109
+          }
+        ],
+        "id": 3
+      },
+      {
+        "date": "2026-02-14",
+        "filePath": "Excalidraw/Drawing 2026-02-12 09.46.42.excalidraw.md",
+        "wordCountStart": 63,
+        "charCountStart": 1441,
+        "changes": [],
+        "id": 4
+      },
+      {
+        "date": "2026-02-14",
+        "filePath": "NOTES/C/C.md",
+        "wordCountStart": 6906,
+        "charCountStart": 44763,
+        "changes": [],
+        "id": 5
+      },
+      {
+        "date": "2026-02-14",
+        "filePath": "NOTES/c++/C++ (Incomplete).md",
+        "wordCountStart": 1077,
+        "charCountStart": 7444,
+        "changes": [],
+        "id": 6
+      },
+      {
+        "date": "2026-02-14",
+        "filePath": "NOTES/Azure Fundamentals/Azure Fundamentals - Recap (Completed).md",
+        "wordCountStart": 1590,
+        "charCountStart": 11918,
+        "changes": [
+          {
+            "timeKey": "15:40",
+            "w": 0,
+            "c": 1
+          }
+        ],
+        "id": 7
+      },
+      {
+        "date": "2026-02-15",
+        "filePath": "NOTES/Azure Fundamentals/Azure Fundamentals - Recap (Completed).md",
+        "wordCountStart": 1590,
+        "charCountStart": 11919,
+        "changes": [],
+        "id": 8
+      },
+      {
+        "date": "2026-02-15",
+        "filePath": "NOTES/Apna College Notes/Web Development (Incomplete).md",
+        "wordCountStart": 2035,
+        "charCountStart": 12340,
+        "changes": [],
+        "id": 9
+      },
+      {
+        "date": "2026-02-15",
+        "filePath": "NOTES/Some Web Notes.md",
+        "wordCountStart": 1816,
+        "charCountStart": 12172,
+        "changes": [
+          {
+            "timeKey": "07:40",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 10
+      },
+      {
+        "date": "2026-02-17",
+        "filePath": "NOTES/Apna College Notes/Web Development (Incomplete).md",
+        "wordCountStart": 2035,
+        "charCountStart": 12340,
+        "changes": [
+          {
+            "timeKey": "10:40",
+            "w": 32,
+            "c": 185
+          },
+          {
+            "timeKey": "10:45",
+            "w": 21,
+            "c": 117
+          },
+          {
+            "timeKey": "10:50",
+            "w": 86,
+            "c": 528
+          },
+          {
+            "timeKey": "10:55",
+            "w": 5,
+            "c": 29
+          },
+          {
+            "timeKey": "11:00",
+            "w": 94,
+            "c": 540
+          },
+          {
+            "timeKey": "11:20",
+            "w": 57,
+            "c": 316
+          },
+          {
+            "timeKey": "11:25",
+            "w": 6,
+            "c": 46
+          },
+          {
+            "timeKey": "12:00",
+            "w": 14,
+            "c": 79
+          },
+          {
+            "timeKey": "12:05",
+            "w": 21,
+            "c": 119
+          },
+          {
+            "timeKey": "12:10",
+            "w": 28,
+            "c": 141
+          },
+          {
+            "timeKey": "12:15",
+            "w": 18,
+            "c": 127
+          },
+          {
+            "timeKey": "14:50",
+            "w": 40,
+            "c": 222
+          },
+          {
+            "timeKey": "19:00",
+            "w": 0,
+            "c": 15
+          },
+          {
+            "timeKey": "19:30",
+            "w": 53,
+            "c": 313
+          },
+          {
+            "timeKey": "19:35",
+            "w": 15,
+            "c": 103
+          },
+          {
+            "timeKey": "20:00",
+            "w": 59,
+            "c": 332
+          },
+          {
+            "timeKey": "20:05",
+            "w": 85,
+            "c": 502
+          },
+          {
+            "timeKey": "20:10",
+            "w": 74,
+            "c": 439
+          },
+          {
+            "timeKey": "20:15",
+            "w": 22,
+            "c": 105
+          },
+          {
+            "timeKey": "20:20",
+            "w": 130,
+            "c": 727
+          }
+        ],
+        "id": 11
+      },
+      {
+        "date": "2026-02-17",
+        "filePath": "NOTES/Some Web Notes.md",
+        "wordCountStart": 1816,
+        "charCountStart": 12172,
+        "changes": [],
+        "id": 12
       }
     ]
   }

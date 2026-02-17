@@ -19,14 +19,14 @@ The ability to remain up and running and running even after failure of the resou
 
 Cloud uses consumption based model which is multiple pricing components per service and very granular usage measurement.
 
-THINGS WE NEED IN OWN INFRASTURCTURE: 
+THINGS WE NEED IN OWN INFRASTRUCTURE: 
 * OS - WINDOWS, LINUX
 * MIDDLEWARE - HARDWARE - RAM, ROM, MOTHERBOARD, CPU, ETC.
 * RUNTIME - DOCKER
 * APPLICATION DATA - APPS
 * NETWORKING -  ROUTER AND INTERNET
 * STORAGE - HARD DRIVE OR SSD
-* VIRTULIZATION - VMWARE 
+* VIRTUALIZATION - VMWARE 
 * ELECTRICITY 
 
 ### WHAT IS PUBLIC CLOUD?
@@ -47,7 +47,7 @@ A **data center** is a facility that houses computer systems and related compo
 ➜ Usually more than 2 datacenter's are connected with each other with ultra low latency.
 ➜ Each location has its own equipment like for some region has a particular tool and some do not. some of them do not even require regional based services like IAM service.
 
-### WHAT IS AVAILIBILITY ZONE?
+### WHAT IS AVAILABILITY ZONE?
 **Availability zones** are isolated locations within a cloud provider’s region, each with its own power, cooling, and networking. They minimize the risk of simultaneous failures and enhance reliability by distributing applications and data across multiple zones.
 ➜ Microsoft has multiple AV's in a single region like US - EAST 1, US - EAST 2, ETC.
 ➜ This makes cloud highly available to everyone as if one of the AV's is down then the other are availability.
