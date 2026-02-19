@@ -124,7 +124,7 @@
 - **Hypertext**: Text that contains hyperlinks to other documents or resources, enabling non-linear navigation between webpages and forming the interconnected structure of the World Wide Web.
 - **Markup Language:** This means that you use "tags" to surround your content, given that content meaning and structure. You are "Marking up" a plain document.
 - Together we say that we have created a website in which hyperlink is present. So, I am able to navigate from one page to another.
-- To structure our webpage we use HTML Tags. A tag is a label used to define the start and end of an html element. 
+- To structure our webpage we use HTML Tags. A tag is a label used to define the start and end of an HTML element. 
 	- They are written inside angle brackets: `<tagname>` and `</tagname>`. 
 	- Most of the tags comes in pairs like the above one which has both opening and closing tags, but some are self-closing tags Ex: `<br>`.
 	- Tags define structure and meaning but not appearance.
@@ -146,6 +146,7 @@
 - **Code:** `<title>My Awesome Portfolio</title>`
 
 **Body element:** The `<body>` tag comes immediately after the closing `</head>` tag and before the final closing `</html>` tag. There is only **one** body element per HTML document.
+-  The `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
 
 **Meta Tags (`<meta>`):**
 - These are the invisible tags that provide data to the browser and search engines.
@@ -173,10 +174,11 @@
 - **Italic text:** similar to bolding, italics have a same just for looks tag and meaningful tag. 
 	- The initial tag `<i>` is used for technical terms, idiomatic phrases, or thoughts. It's for a different voice.
 	- The `<em>` emphasis tag is used to stress a specific word. Screen readers will often change the pitch or infection of the voice for this tag.
-- **__Underline__:** Underlining is a bit tricky in web design because users often mistake underlined text for clickable link.
+- **Underline:** Underlining is a bit tricky in web design because users often mistake underlined text for clickable link.
 	- `<u>` (Underline): Used to represent text that should be rendered with an underline, such as misspelled words.
 	```
-	<p>This word is <u>mispelled</u>.</p>
+	<p>This word is <u>mispelled</u>
+	</p>
 	```
 > You can nest these tags to apply multiple styles at once.
 
@@ -257,17 +259,97 @@ The attribute uses four specific "keywords" that start with an underscore:
 3. `_parent_`: Opens the link in the parent frame (used when your page is inside an `<iframe>`).
 4. `_top_`: Opens the link in the full body of the window, breaking out of any and all nested frames.
 
+**HTML IMAGES:** Images in html are defined with `<img>` tag. Unlike most other tags, the image tag is empty, meaning it does not have a closing tag.
+```
+<img src="mountain.jpg" alt="A snowy mountain peak at sunrise">
+```
+> **The purpose:** To display a visual image. 
+
+- It requires two main attributes:
+	- `src` (source): the path to the image file
+	- `alt` (alternative text): A text description of the image.
+- **Image dimensions:** you can control the size of an image directly in HTML using the `width` and `height` attributes.
+`<img src="logo.png" alt="Company Logo" width="200" height="100">`
+
+- **External Images:** we can link hosted images on another website by providing full URL. 
+`<img src="https://example.com/photo.jpg" alt="Online Photo">`
+
+**HTML TABLES:** 
+Html tables allow web developers to arrange data into rows and columns.
+- A table in HTML consist of table cells inside rows and columns.
+- Each table cell is defined by a `<td>` and a `</td>` tag. Everything between `<td>` and `</td>` is the content of a table cell.
+- **Table Rows:** Each table row starts with a `<tr>` and ends with a `</tr>` tag.
+- **Table Headers:** Sometimes you want your cells to be table header cells. In those cases use the `<th>` tag instead of the `<td>` tag:
+```
+<table>  
+  <tr>  
+    <th>Person 1</th>  
+    <th>Person 2</th>  
+    <th>Person 3</th>  
+  </tr>  
+  <tr>  
+    <td>Emil</td>  
+    <td>Tobias</td>  
+    <td>Linus</td>  
+  </tr>  
+  <tr>  
+    <td>16</td>  
+    <td>14</td>  
+    <td>10</td>  
+  </tr>  
+</table>
+```
+
+**Adding Structure (Thead, Tbody, Tfoot):**
+For larger tables, it is best practice to group your rows. This helps screen readers and make it easier to style the table with CSS.
+- **`<thead>`**: Wraps the header rows.
+- **`<tbody>`**: Wraps the main content (the body of the data).
+- **`<tfoot>`**: Wraps the footer row (usually for totals or summaries).
+
+**Spanning Rows and Columns**
+Sometimes a cell needs to take up more than one slot. We use two specific attributes for this:
+- **`colspan`**: Stretches a cell across multiple **columns** (horizontally).
+- **`rowspan`**: Stretches a cell across multiple **rows** (vertically).
+```
+<tr>
+  <td colspan="2">This cell spans two columns</td>
+</tr>
+```
 
 
+**The "Caption" Tag**
+You can add a tittle to your table using `<caption>` tag. It must be placed immediately after the opening `<table>` tag.
+```
+<table border="1">
+  <caption>Weekly Progress Report</caption>
+  <tr>
+    <th>Day</th>
+    <th>Task</th>
+  </tr>
+  ...
+</table>
+```
 
+**Table Attributes (HTML Layout):**
+Before CSS took over, these attributes were used to "style" tables. They are very helpful for beginners:
+- **`border="1"`**: Adds a basic black border around every cell.
+- **`cellpadding="10"`**: Adds space **inside** the cells (keeps the text from touching the borders).
+- **`cellspacing="5"`**: Adds space **between** the cells themselves.
+- **`width="50%"`**: Makes the table take up half the screen width.
+- **`align="center"`**: Centers the table on the page.
 
+**FILE PATH SYSTEM:** 
+A website is not one single file, It is collection of different files that all need to work together (HTML, CSS, JavaScript, etc). So, a file path is the address that tells the browser exactly where to find a file.
+<u>Types of File Path System: </u>
+1. **Absolute File Paths:** An absolute file path is the full URL to a file. It includes the protocol (like `https://`) and the domain name.
+   - It is used when we are linking a different website to our file.
+   - It works from anywhere because the address is complete.
+   - If the website changes the file name or goes offline, your link breaks.
+```
+<img src="https://www.google.com/images/branding/googlelogo.png" alt="Google Logo">
+```
 
-
-
-
-
-
-
+2. **Relative File pats:** A relative file path points to a file in relation to the current page's location. This is what we will use 99% of the time for your own projects.
 
 
 
