@@ -350,6 +350,32 @@ A website is not one single file, It is collection of different files that all n
 ```
 
 2. **Relative File pats:** A relative file path points to a file in relation to the current page's location. This is what we will use 99% of the time for your own projects.
+- We use it when linking to files within your own project folder.
+- If you move your entire project folder to a new computer or a web server, the links still work because the files are still in the same position relative to each other.
+**Common Relative Path scenarios:** 
+A. Same folder: If the file is in the exact same folder as your HTML, just use the name.
+- Path: `src = "picture.png"`
+B. In sub folder(Moving Down): If the file is inside a folder ("images") that is sitting next to your HTML file.
+- Path: `src = "images/picture.png"`
+C. In parent folder (Moving up): If you are inside a sub-folder and need to "get out" to find a file in the folder above you, use `../`.
+- Path: `src = ../picture.png` (.. Means that we are going back one folder).
+
+**The Root-Relative Path:** There is a third type that starts with slash `/`. This tells the browser to start looking from the root of the website.
+- Path: `src = "/images/picture.png"`
+- This usually only works correctly once your website is "live" on the web server. If you are just opening files from your desktop, it might not work as expected. K
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
