@@ -362,7 +362,7 @@ C. In parent folder (Moving up): If you are inside a sub-folder and need to "get
 
 **The Root-Relative Path:** There is a third type that starts with slash `/`. This tells the browser to start looking from the root of the website.
 - Path: `src = "/images/picture.png"`
-- This usually only works correctly once your website is "live" on the web server. If you are just opening files from your desktop, it might not work as expected. K
+- This usually only works correctly once your website is "live" on the web server. If you are just opening files from your desktop, it might not work as expected. 
 
 
 
