@@ -2,7 +2,7 @@
 **What is the Internet?** 
 - The **Internet** is like a **huge worldwide network** that connects millions of computers, phones, and devices so they can share information with each other.
 - In order to send or receive data, computers are given special IP address to communicate with each other. EX:- 192.168.0.1
-![[image-1.png]]
+![[image 2.png]]
 
 **What are IP addresses?** 
 - **IP address** (Internet Protocol address) is a numerical label assigned to every device connected to a computer network that uses the Internet Protocol for communication.

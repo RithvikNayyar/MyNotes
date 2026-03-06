@@ -71,7 +71,9 @@
       "2026-02-13",
       "2026-02-14",
       "2026-02-17",
-      "2026-02-19"
+      "2026-02-19",
+      "2026-02-21",
+      "2026-02-25"
     ],
     "dailyActivity": [
       {
@@ -555,6 +557,197 @@
         "charCountStart": 12172,
         "changes": [],
         "id": 15
+      },
+      {
+        "date": "2026-02-21",
+        "filePath": "NOTES/Apna College Notes/Web Development (Incomplete).md",
+        "wordCountStart": 3796,
+        "charCountStart": 22514,
+        "changes": [],
+        "id": 16
+      },
+      {
+        "date": "2026-02-21",
+        "filePath": "README.md",
+        "wordCountStart": 15,
+        "charCountStart": 92,
+        "changes": [
+          {
+            "timeKey": "15:20",
+            "w": 2,
+            "c": 14
+          }
+        ],
+        "id": 17
+      },
+      {
+        "date": "2026-02-21",
+        "filePath": "NOTES/Java/Java By Coder Army.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "04:30",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "16:30",
+            "w": 704,
+            "c": 5257
+          },
+          {
+            "timeKey": "16:40",
+            "w": 2,
+            "c": 8
+          },
+          {
+            "timeKey": "23:25",
+            "w": 1,
+            "c": 2
+          }
+        ],
+        "id": 18
+      },
+      {
+        "date": "2026-02-24",
+        "filePath": "NOTES/Java/Java By Coder Army.md",
+        "wordCountStart": 707,
+        "charCountStart": 5267,
+        "changes": [],
+        "id": 19
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "NOTES/Java/Java By Coder Army.md",
+        "wordCountStart": 707,
+        "charCountStart": 5267,
+        "changes": [
+          {
+            "timeKey": "05:45",
+            "w": 0,
+            "c": 24
+          },
+          {
+            "timeKey": "06:15",
+            "w": 129,
+            "c": 829
+          },
+          {
+            "timeKey": "06:20",
+            "w": 283,
+            "c": 1848
+          },
+          {
+            "timeKey": "06:25",
+            "w": 258,
+            "c": 1954
+          },
+          {
+            "timeKey": "06:30",
+            "w": 0,
+            "c": 1
+          },
+          {
+            "timeKey": "06:35",
+            "w": 122,
+            "c": 790
+          },
+          {
+            "timeKey": "07:30",
+            "w": 278,
+            "c": 1858
+          },
+          {
+            "timeKey": "07:35",
+            "w": 57,
+            "c": 229
+          },
+          {
+            "timeKey": "07:40",
+            "w": 46,
+            "c": 317
+          },
+          {
+            "timeKey": "08:20",
+            "w": 3,
+            "c": 18
+          },
+          {
+            "timeKey": "08:25",
+            "w": 85,
+            "c": 586
+          }
+        ],
+        "id": 20
+      },
+      {
+        "date": "2026-03-02",
+        "filePath": "NOTES/Java/Java By Coder Army.md",
+        "wordCountStart": 1968,
+        "charCountStart": 13721,
+        "changes": [
+          {
+            "timeKey": "18:30",
+            "w": 0,
+            "c": -4
+          }
+        ],
+        "id": 21
+      },
+      {
+        "date": "2026-03-06",
+        "filePath": "NOTES/Java/Java By Coder Army.md",
+        "wordCountStart": 1968,
+        "charCountStart": 13717,
+        "changes": [
+          {
+            "timeKey": "03:45",
+            "w": 25,
+            "c": 147
+          },
+          {
+            "timeKey": "03:50",
+            "w": 66,
+            "c": 434
+          },
+          {
+            "timeKey": "03:55",
+            "w": 12,
+            "c": 71
+          },
+          {
+            "timeKey": "06:10",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "06:15",
+            "w": 1,
+            "c": 52
+          },
+          {
+            "timeKey": "06:20",
+            "w": 9,
+            "c": -2
+          },
+          {
+            "timeKey": "06:25",
+            "w": 111,
+            "c": 770
+          },
+          {
+            "timeKey": "06:50",
+            "w": 124,
+            "c": 751
+          },
+          {
+            "timeKey": "06:55",
+            "w": -5,
+            "c": -14
+          }
+        ],
+        "id": 22
       }
     ]
   }
