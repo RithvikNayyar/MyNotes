@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/Java/Java By Coder Army.md",
+                "file": "NOTES/Apna College Notes/Web Development (Incomplete).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java By Coder Army"
+              "title": "Web Development (Incomplete)"
             }
           }
         ]
@@ -86,13 +86,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES/Java/Java By Coder Army.md",
+                "file": "NOTES/Apna College Notes/Web Development (Incomplete).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Java By Coder Army"
+              "title": "Outline of Web Development (Incomplete)"
             }
           }
         ]
@@ -179,8 +179,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -207,8 +207,8 @@
   },
   "active": "ade4c95aea698b68",
   "lastOpenFiles": [
-    "NOTES/Java/Images/image.png",
     "NOTES/Java/Java By Coder Army.md",
+    "NOTES/Java/Images/image.png",
     "NOTES/Java/Images/image 5.png",
     "NOTES/Java/Images/image 2.png",
     "NOTES/Java/Images/image 3.png",
